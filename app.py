@@ -107,7 +107,7 @@ def reset_all():
 if ("init" not in st.session_state) or (st.session_state.get("n_questions") != len(QUESTIONS)):
     full_init()
 
-st.title("🎈Révision examen : Microéconomie I")
+st.title("🎈Révision examen : Comptabilité financière I")
 st.caption("Mode **apprentissage** : répéter les erreurs jusqu'à maîtriser le sujet.")
 
 
