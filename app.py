@@ -58,7 +58,19 @@ QUESTIONS = [
         "answer": 3,
         "explain": (
             "Correction de valeur s/actif n'est pas un passif mais un actif correcteur."),
-    }    
+    },
+    {
+        "q": "Quel est l’EBITDA de l’année N ?",
+        "choices": [
+            "1'357.",
+            "2'167.",
+            "3'524.",
+            "5'691",
+        ],
+        "answer": 2,
+        "explain": (
+            "EBITDA N = EBIT N + Amortissements = (88'886 - 33'351 - 10'660 - 30'992 - 12'526) + 2'167 = 3'524"),
+    }
     ]
 
 #-------------------------------------------------------------------------------------------------------------------------------------------
