@@ -70,7 +70,7 @@ QUESTIONS = [
         "answer": 2,
         "explain": (
             "EBITDA N = EBIT N + Amortissements = (88'886 - 33'351 - 10'660 - 30'992 - 12'526) + 2'167 = 3'524"),
-        "image": "serie_1_compte_resultat.png"
+        "image": "images/serie_1_compte_resultat.png"
     }
     ]
 
@@ -230,9 +230,12 @@ def render_single(q_index):
     # Afficher l'image si elle existe
     if q.get("image"):
         try:
-            st.image(q["image"], use_container_width=True, caption="Graphique de référence")
+            # Essaye de charger l'image depuis le chemin spécifié
+            st.image(q["image"], use_container_width=True, caption="Document de référence")
         except Exception as e:
-            st.warning(f"⚠️ Impossible de charger l'image : {e}")
+            st.warning(f"⚠️ Impossible de charger l'image {q['image']} : {e}")
+            # Affiche le chemin pour debug
+            st.info(f"Chemin essayé : {q['image']}")
     
     # Choix
     key_radio = f"choice_{q_index}"
