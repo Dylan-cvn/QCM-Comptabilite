@@ -11,19 +11,30 @@ st.set_page_config(page_title="QCM Comptabilité financière", page_icon="🧠",
 QUESTIONS = [
 
     {
-        "q": "On peut affirmer qu'en concurrence parfaite...",
+        "q": "Lequel de ces comptes ne figure pas à l’actif ?",
         "choices": [
-            "un producteur produit une quantité d'output tel que Rm = Cm.",
-            "la quantité à produire est donnée par le Cm du producteur.",
-            "l'offre du marché est donnée par le Cm du producteur.",
-            "il suffit qu'un producteur baisse son prix pour que les consommateurs puissent atteindre un niveau d'utilité plus élevé pour un revenu donné.",
+            "Charge à payer.",
+            "Impôt anticipé à récupérer.",
+            "Perte sur créance.",
+            "Titre de placement.",
         ],
         "answer": 0,
         "explain": (
-            "En concurrence parfaite, le prix du marché (P) = au coût marginal (Cm) = à la recette marginal (Rm). "
-            "Le producteur étant preneur de prix en concurrence parfaite veut maximiser son profit."),
+            "Charge à payer n'est pas un actif mais un passif(dette à court terme)."),
         "highlight_color": "#ffc107",
     },
+    {
+        "q": "Lequel de ces comptes ne figure pas à l’actif ?",
+        "choices": [
+            "Charge à payer.",
+            "Impôt anticipé à récupérer.",
+            "Perte sur créance.",
+            "Titre de placement.",
+        ],
+        "answer": 0,
+        "explain": (
+            "Charge à payer n'est pas un actif mais un passif(dette à court terme)."),
+        "highlight_color": "#ffc107",
 ]
 
 #-------------------------------------------------------------------------------------------------------------------------------------------
