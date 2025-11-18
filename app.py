@@ -34,8 +34,7 @@ QUESTIONS = [
         "answer": 0,
         "explain": (
             "Charge à payer n'est pas un actif mais un passif(dette à court terme)."),
-        "highlight_color": "#ffc107",
-]
+    ]
 
 #-------------------------------------------------------------------------------------------------------------------------------------------
 # CONFIGURATION ET VARIABLES GLOBALES
