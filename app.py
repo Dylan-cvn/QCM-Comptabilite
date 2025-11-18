@@ -15,7 +15,7 @@ QUESTIONS = [
         "choices": [
             "Charge à payer.",
             "Impôt anticipé à récupérer.",
-            "Perte sur créance.",
+            "Créances résultant des ventes.",
             "Titre de placement.",
         ],
         "answer": 0,
@@ -24,17 +24,41 @@ QUESTIONS = [
         "highlight_color": "#ffc107",
     },
     {
-        "q": "Lequel de ces comptes ne figure pas à l’actif ?",
+        "q": "Lequel de ces comptes ne figure pas à l'actif ?",
         "choices": [
-            "Charge à payer.",
-            "Impôt anticipé à récupérer.",
-            "Perte sur créance.",
-            "Titre de placement.",
+            "Trésorerie.",
+            "Pertes sur créances.",
+            "Correction de valeur sur créances.",
+            "Stock de marchandises.",
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": (
-            "Charge à payer n'est pas un actif mais un passif(dette à court terme)."),
-    }
+            "Perte sur créance n'est pas un actif mais un passif(dette à court terme)."),
+    },
+    {
+        "q": "Lequel de ces comptes ne figure pas au passif ?",
+        "choices": [
+            "Produit reçus d'avance.",
+            "Dette hypothécaire.",
+            "Intérêts hypothécaires",
+            "Dividendes nets.",
+        ],
+        "answer": 2,
+        "explain": (
+            "Intérêts hypothécaires n'est pas un passif mais une charge."),
+    },
+    {
+        "q": "Lequel de ces comptes ne figure pas au passif ?",
+        "choices": [
+            "Pertes sur créances.",
+            "Emprunt obligataire.",
+            "Capital-actions.",
+            "Correction de valeur s/actif",
+        ],
+        "answer": 3,
+        "explain": (
+            "Correction de valeur s/actif n'est pas un passif mais un actif correcteur."),
+    }    
     ]
 
 #-------------------------------------------------------------------------------------------------------------------------------------------
