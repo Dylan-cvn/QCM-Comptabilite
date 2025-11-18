@@ -40,7 +40,7 @@ QUESTIONS = [
         "choices": [
             "Produit reçus d'avance.",
             "Dette hypothécaire.",
-            "Intérêts hypothécaires",
+            "Intérêts hypothécaires.",
             "Dividendes nets.",
         ],
         "answer": 2,
