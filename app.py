@@ -70,7 +70,7 @@ QUESTIONS = [
         "answer": 2,
         "explain": (
             "EBITDA N = EBIT N + Amortissements = (88'886 - 33'351 - 10'660 - 30'992 - 12'526) + 2'167 = 3'524"),
-        "image": "images/compte_resultat.png"
+        "image": "images/serie_1_compte_resultat.png"
     }
     ]
 
