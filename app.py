@@ -252,10 +252,40 @@ QUESTIONS = [
             "Les sociétés cotées en bourse.",
             "Aucune société en Suisse.",
         ],
+        "answer": 2,
+        "explain": (
+            "Le CO impose une norme comptable reconnue à toutes les sociétés cotées en bourse. "),
+},
+{
+     "q": "Afin d’économiser des frais, les administrateurs envisagent de ne pas soumettre les comptes présentés à une révision (opting out). "
+          "Quelles sont les conditions à réunir pour avoir le droit de renoncer à la révision des comptes ?",
+        "choices": [
+            "Moins de 10 collaborateurs à plein temps et acceptation à l’unanimité des actionnaires. ",
+            "Moins de 20 emplois à plein temps et acceptation à l’unanimité des actionnaires.",
+            "Moins de 10 collaborateurs à plein temps et acceptation à l’unanimité des administrateurs.",
+            "Moins de 20 collaborateurs à plein temps et acceptation à la majorité des actionnaires.",
+        ],
         "answer": 0,
         "explain": (
-            "e CO impose une norme comptable reconnue à toutes les grandes entreprises, y compris certaines non cotées en bourse. "),
+            "Selon le CO, l’opting-out n’est possible que si l’entreprise compte moins de 10 employés en moyenne "
+            "et que tous les actionnaires renoncent unanimement à la révision."),
+},
+{
+     "q": "La présidente du conseil d’administration vous fait remarquer qu’aucune charge financière n’apparaît dans les états financiers. " 
+          "Or un prêt bancaire à long terme au taux de 2.25% a été conclu le 31 mai pour CHF 2'500'000. "
+          "Quelle serait l’incidence de ces charges financières sur l’EBIT ? ",
+        "choices": [
+            "L’EBIT aurait augmenté du montant des charges financières.",
+            "L’EBIT aurait diminué du  montant des charges financières.",
+            "L’EBIT aurait augmenté de la variation des charges financières entre l’année N et N-1.",
+            "L’EBIT n’aurait pas été modifié.",
+        ],
+        "answer": 3,
+        "explain": (
+            "Cha. fin = 2'500'000 × 2.25% = 56'250 "
+            "EBIT = Res. avant intérêts & impôts ∴ avant cha. fin ⇒ l'incidence sur l'EBIT est 0"),
 }
+   
     ]
 
 #-------------------------------------------------------------------------------------------------------------------------------------------
