@@ -62,9 +62,9 @@ QUESTIONS = [
     {
         "q": "Quel est l’EBITDA de l’année N ?",
         "choices": [
-            "1'357.",
-            "2'167.",
-            "3'524.",
+            "1'357",
+            "2'167",
+            "3'524",
             "5'691",
         ],
         "answer": 2,
@@ -72,6 +72,19 @@ QUESTIONS = [
             "EBITDA N = EBIT N + Amortissements = (88'886 - 33'351 - 10'660 - 30'992 - 12'526) + 2'167 = 3'524"),
         "image": "série_1_compte_resultat.png"
     }
+    {
+            "q": "Quel est l’EBIT de l’année N-1 ?",
+        "choices": [
+            "-140",
+            "75",
+            "931",
+            "2'126",
+        ],
+        "answer": 1,
+        "explain": (
+            "EBIT N-1 = EBITDA N-1 - Amortissements = (prod. d'expl. - cha. d'expl) - Amortissements = "
+            "[(89'878 + 51) - (36’494 + 16’206 + 30’219 + 4’884)] - 2’051 = 75"),
+        "image": "série_1_compte_resultat.png"
     ]
 
 #-------------------------------------------------------------------------------------------------------------------------------------------
