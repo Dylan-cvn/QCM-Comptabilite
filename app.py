@@ -69,7 +69,7 @@ QUESTIONS = [
         ],
         "answer": 2,
         "explain": (
-            "EBITDA N = EBIT N + Amortissements = (88'886 - 33'351 - 10'660 - 30'992 - 12'526) + 2'167 = 3'524"),
+            "EBITDA N = EBIT N + amortissements = (88'886 - 33'351 - 10'660 - 30'992 - 12'526) + 2'167 = 3'524"),
         "image": "série_1_compte_resultat.png"
     },
     {
@@ -82,7 +82,7 @@ QUESTIONS = [
         ],
         "answer": 1,
         "explain": (
-            "EBIT N-1 = EBITDA N-1 - Amortissements = (prod. d'expl. - cha. d'expl) - Amortissements = "
+            "EBIT N-1 = EBITDA N-1 - amortissements = (prod. d'expl. - cha. d'expl) - amortissements = "
             "[(89'878 + 51) - (36’494 + 16’206 + 30’219 + 4’884)] - 2’051 = 75"),
         "image": "série_1_compte_resultat.png"
 },
@@ -96,7 +96,7 @@ QUESTIONS = [
         ],
         "answer": 1,
         "explain": (
-            "EBT N = EBIT N + prod. fin. - cha. fin. = (EBITDA N - Amortissements) + (230 - 328) = "
+            "EBT N = EBIT N + prod. fin. - cha. fin. = (EBITDA N - amortissements) + (230 - 328) = "
             "[(88'886 - 33'351 - 10'660 - 30'992 - 12'526 + 2'167) - 2'167] - 98 = 1'259"),
         "image": "série_1_compte_resultat.png"  
 },
@@ -110,10 +110,25 @@ QUESTIONS = [
         ],
         "answer": 1,
         "explain": (
-            "Res. de l'exercice N-1 = EBT N-1 - impôts = (EBIT N-1 + prod. fin. - cha. fin.) - 140 = (EBITDA N-1 - Amortissements) + (931 - 295) - 140 = "
+            "Res. de l'exercice N-1 = EBT N-1 - impôts = (EBIT N-1 + prod. fin. - cha. fin.) - 140 = (EBITDA N-1 - amortissements) + (931 - 295) - 140 = "
             "[(89'878 - 36'494 - 16'206 - 30'219 - 4'884 + 2'051) - 2'051] + 636 - 140 = 571"),
         "image": "série_1_compte_resultat.png" 
-} 
+},
+{
+      "q": "Quel est le résultat EBITDA de l’exercice au 31.12.20xx  ?",
+        "choices": [
+            "150’500",
+            "171’000",
+            "271’000",
+            "288'500",
+        ],
+        "answer": 2,
+        "explain": (
+            "EBITDA = EBIT + amortissements = [(prod. d'expl - cha. d'expl) - amortissements] + (100'000 + 75'000) = "
+            "[3'000'000 - (charges liées à l’activité courante) - 175'000] + 175'000 = "
+            "[3'000'000 - (1'550'000 + 350'000 + 700'000 + 96'000 + 15'500 + 17'500)] = 271'000"),
+        "image": "serie_1_balance_verification.png"
+}
     ]
 
 #-------------------------------------------------------------------------------------------------------------------------------------------
