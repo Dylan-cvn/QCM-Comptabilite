@@ -85,7 +85,35 @@ QUESTIONS = [
             "EBIT N-1 = EBITDA N-1 - Amortissements = (prod. d'expl. - cha. d'expl) - Amortissements = "
             "[(89'878 + 51) - (36’494 + 16’206 + 30’219 + 4’884)] - 2’051 = 75"),
         "image": "série_1_compte_resultat.png"
-}
+},
+{
+  "q": "Quel est le résultat avant impôt de l’année N ?",
+        "choices": [
+            "–98",
+            "1'259",
+            "1'357",
+            "3'524",
+        ],
+        "answer": 1,
+        "explain": (
+            "EBT N = EBIT N + prod. fin. - cha. fin. = (EBITDA N - Amortissements) + (230 - 328) = "
+            "[(88'886 - 33'351 - 10'660 - 30'992 - 12'526 + 2'167) - 2'167] - 98 = 1'259"),
+        "image": "série_1_compte_resultat.png"  
+},
+{
+  "q": "Quel est le résultat de l'exercice de l’année N-1 ?",
+        "choices": [
+            "75",
+            "571",
+            "636",
+            "1'299",
+        ],
+        "answer": 1,
+        "explain": (
+            "Res. de l'exercice N-1 = EBT N-1 - impôts = (EBIT N-1 + prod. fin. - cha. fin.) - 140 = (EBITDA N-1 - Amortissements) + (931 - 295) - 140 = "
+            "[(89'878 - 36'494 - 16'206 - 30'219 - 4'884 + 2'051) - 2'051] + 636 - 140 = 571"),
+        "image": "série_1_compte_resultat.png" 
+} 
     ]
 
 #-------------------------------------------------------------------------------------------------------------------------------------------
