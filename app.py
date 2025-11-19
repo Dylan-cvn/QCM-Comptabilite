@@ -243,8 +243,19 @@ QUESTIONS = [
         "answer": 1,
         "explain": (
             "Le CO définit la taille des entreprises (et donc l’obligation de contrôle ordinaire) sur la base de ces trois critères uniquement."),
+},
+{
+     "q": "Une administratrice vous demande quelles sont les sociétés qui doivent présenter les comptes selon une norme comptable reconnue ? ",
+        "choices": [
+            "Les grandes entreprises selon le CO. ",
+            "Les petites entreprises selon le CO.",
+            "Les sociétés cotées en bourse.",
+            "Aucune société en Suisse.",
+        ],
+        "answer": 0,
+        "explain": (
+            "e CO impose une norme comptable reconnue à toutes les grandes entreprises, y compris certaines non cotées en bourse. "),
 }
-    
     ]
 
 #-------------------------------------------------------------------------------------------------------------------------------------------
