@@ -20,7 +20,7 @@ QUESTIONS = [
         ],
         "answer": 0,
         "explain": (
-            "Charge à payer n'est pas un actif mais un passif(dette à court terme)."),
+            "Charge à payer n'est pas un actif mais un passif (dette c-t car régularisation)."),
         "highlight_color": "#ffc107",
     },
     {
@@ -33,7 +33,7 @@ QUESTIONS = [
         ],
         "answer": 1,
         "explain": (
-            "Perte sur créance n'est pas un actif mais un passif(dette à court terme)."),
+            "Perte sur créance n'est pas un actif mais une charge (cha. d'expl.)."),
     },
     {
         "q": "Lequel de ces comptes ne figure pas au passif ?",
@@ -115,20 +115,136 @@ QUESTIONS = [
         "image": "série_1_compte_resultat.png" 
 },
 {
-      "q": "Quel est le résultat EBITDA de l’exercice au 31.12.20xx  ?",
+      "q": "Quel est le résultat EBITDA de l’exercice au 31.12.20xx ?",
         "choices": [
-            "150’500",
-            "171’000",
-            "271’000",
+            "150'500",
+            "171'000",
+            "271'000",
             "288'500",
         ],
         "answer": 2,
         "explain": (
-            "EBITDA = EBIT + amortissements = [(prod. d'expl - cha. d'expl) - amortissements] + (100'000 + 75'000) = "
-            "[3'000'000 - (charges liées à l’activité courante) - 175'000] + 175'000 = "
+            "EBITDA = EBIT + amortissements = [(prod. d'expl - cha. d'expl) - amortissements] + 100'000 = "
+            "[3'000'000 - (charges liées à l’activité courante) - 100'000] + 100'000 = "
             "[3'000'000 - (1'550'000 + 350'000 + 700'000 + 96'000 + 15'500 + 17'500)] = 271'000"),
+        "image": "serie_1_balance_verification.png"   
+},
+{
+      "q": "Si le résultat de l’exercice s’élève à CHF 25'500, quel est le montant du résultat EBIT ?",
+        "choices": [
+            "50'500",
+            "171'000",
+            "271'000",
+            "Aucune des réponses",
+        ],
+        "answer": 1,
+        "explain": (
+            "EBIT = Res. de l'exercice + impôts + (Cha. fin - prod. fin) + (Cha. hors expl. - prod. hors expl.) + (Cha. exc. - prod. exc) = "
+            " 25'500 + 25'000 + 0 + (120'500 - 0) + 0 = 171'000"),
         "image": "serie_1_balance_verification.png"
+},
+{
+    "q": "Sachant que l’entreprise présente ses comptes selon le plan comptable PME, quel est le montant des actifs circulants du bilan ?",
+        "choices": [
+            "875'500",
+            "1'118'000",
+            "1'125'500",
+            "1'140'500",
+        ],
+        "answer": 2,
+        "explain": (
+            "actifs circulants = trésorerie + créances + stocks + régularisation = "
+            "(banques) + (cr. clients - correction s/cr. clients + cr. envers personnes proches) + (stock de marchandises) + (actifs de régularisations) = "
+            "543'000 + (300'000 - 15'000 + 250'000) + 40'000 + 7'500 = 1'125'500"),
+        "image": "serie_1_balance_verification.png"
+},
+{
+    "q": "Sachant que l’entreprise présente ses comptes selon le plan comptable PME, quel est le montant des capitaux étrangers du bilan ?",
+        "choices": [
+            "410'000",
+            "2'660'000",
+            "2'800'000",
+            "2'910'000",
+        ],
+        "answer": 3,
+        "explain": (
+            "capitaux étrangers = Capitaux étrangers à c-t + Capitaux étrangers à l-t = "
+            "(dettes c-t + régularisations) + (dettes l-t) = "
+            "(dettes résultant d’achats + dettes c-t envers personnes proches + passifs de régularisation) + dettes l-t intérêts = "
+            "(50'000 + 250'000 + 110'000) + 2'500'000 = 2'910'000"),
+        "image": "serie_1_balance_verification.png"
+},
+{
+    "q": "L’entreprise « JARDINS SA » est une société anonyme active depuis une dizaine d’années dans le domaine de l’aménagement des espaces extérieurs. " 
+         "Elle a été fondée par trois frères actifs dans le secteur d’activité depuis de nombreuses années. "
+         "La jeune société n’est pas cotée à la bourse. Durant N-1, la société a généré un chiffre d’affaires de 38M et employé 252 prsonnes travaillant plein temps. "
+         "le résultat de son bilan le 31.12.N-1 est de 22'295 KCHF. "
+         "A quel type de contrôle la société est-elle soumise selon le CO ?",
+        "choices": [
+            "Contrôle restreint.",
+            "Contrôle ordinaire.",
+            "Contrôle ordinaire avec respect des normes comptables Swiss Gaap.",
+            "Contrôle standard.",
+        ],
+        "answer": 1,
+        "explain": (
+            "On peut conclure à un contrôle ordinaire, car l’entreprise dépasse 2 des 3 seuils : "
+            "bilan ≥ 20M (oui), CAN ≥ 40M (non), EPT ≥ 250 (oui) donc la société est soumise au contrôle ordinaire."),
+},
+{
+    "q": "Quels états financiers doit présenter une société sous contrôle ordinaire ? ",
+        "choices": [
+            "Bilan & compte de résultat.",
+            "Bilan, compte de résultat, tableau de flux de trésorerie & annexe.",
+            "Bilan, compte de résultat & annexe étendue.",
+            "Bilan, compte de résultat, annexe étendue, tableau de flux de trésorerie & rapport de gestion.",
+        ],
+        "answer": 3,
+        "explain": (
+            "Une société soumise au contrôle ordinaire doit présenter des états financiers complets, incluant le bilan, le compte de résultat, l’annexe étendue, "
+            "le tableau des flux de trésorerie ainsi que le rapport de gestion, conformément au Code des Obligations."),
+},
+{
+     "q": "Les actionnaires d'une société soumise au contrôle ordinaire souhaite faire un opting out. "
+          " Quelles seraient les conditions à réunir pour pouvoir le réaliser ?",
+        "choices": [
+            "L’opting out est possible avec l’accord de la majorité des actionnaires.",
+            "L’opting out est possible avec l’accord de l’unanimité des actionnaires.",
+            "L’opting out est possible avec l’accord de l’unanimité des administrateurs.",
+            "L’opting out n’est pas possible pour JARDINS SA.",
+        ],
+        "answer": 3,
+        "explain": (
+            "Une société soumise au contrôle ordinaire ne peut pas renoncer au contrôle, même avec l’accord unanime des actionnaires. "
+            "Elle peut renoncer au contrôle seulement si elle repasse sous les seuils légaux pendant deux exercices consécutifs."),
+},
+{
+     "q": "Qu’est-ce que l’EBITDA ?",
+        "choices": [
+            "Il s’agit du résultat de l’exercice avant produits/charges financiers & avant impôts, mais après amortissements.",
+            "Il s’agit du résultat de l’exercice après produits/charges financiers mais avant impôts.",
+            "Il s’agit du résultat de l’exercice avant amortissements, avant produits/charges financiers & avant impôts.",
+            "Il s’agit du résultat de l’exercice après produits/charges financiers & après impôts.",
+        ],
+        "answer": 2,
+        "explain": (
+            "Le résultat de l'exercice avant produits/charges financiers & avant impôts, mais après amortissements ⇒ EBIT "
+            "Le résultat de l’exercice après produits/charges financiers mais avant impôts ⇒ EBT "
+            "Le résultat de l’exercice après produits/charges financiers & après impôts ⇒ Res. de l'exercice"),
+},
+{
+     "q": "Un administrateur vous demande quels sont les critères de définition de la taille des entreprises selon le CO. ",
+        "choices": [
+            "Le nombre d’emplois à plein temps, le montant du résultat d’exploitation et le chiffre d’affaires. ",
+            "Le total du bilan, le chiffre d’affaires et le nombre d’emplois à plein temps.",
+            "le total du bilan, le nombre d’administrateurs à plein temps et le chiffre d’affaires.",
+            "Aucunes réponses.",
+        ],
+        "answer": 1,
+        "explain": (
+            "Le CO définit la taille des entreprises (et donc l’obligation de contrôle ordinaire) sur la base de ces trois critères uniquement."),
 }
+    
     ]
 
 #-------------------------------------------------------------------------------------------------------------------------------------------
