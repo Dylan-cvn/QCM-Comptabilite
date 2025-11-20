@@ -441,8 +441,64 @@ QUESTIONS = [
         "answer": 0,
         "explain": (
             "TVA due = TVA collecté sur ventes - TVA récupérable sur achats = 15'400 - 5'390 = 10'010 étant la TVA que l'entreprise doit verser."),
+},
+{
+     "q": "Le 30.09.N, les ventes d’articles durant le 3ème trimestre sont de CHF 25'000. L’entreprise a octroyé à son client le plus important une remise de 5 %. "
+          "Ce client représente 10 % du total des ventes du 3ème trimestre. L’entreprise émet une note de crédit sur ce montant. \n"
+          "Quel est le montant de la remise de 5% au 30.09.N ? ",
+        "choices": [
+            "125",
+            "1'250",
+            "2'500",
+            "2'625",
+        ],
+        "answer": 0,
+        "explain": (
+            "Le client représente 10 % de ces ventes ⇒ 25′000 × 10% = 2'500 puis remise accordée de 5 % sur ses achats ⇒ 2'500 × 5% = 125"),
+},
+{
+     "q": "Le matériel et mobilier est amorti de manière indirecte et décroissante au taux de 25%. Sachant que sa valeur comptable au 31.12.N avant amortissements : "
+          "Mat.&mob. = 99'000 tandis que Amortissement & correction de valeur (cumul) s/mat.&mob. = 36'800. \n"
+          "Quel écriture l'entreprise doit-elle comptabiliser le 31.12.N ?",
+        "choices": [
+            "Amortissement & correction de valeur (cumul) s/mat.&mob à Mat.&mob. pour 15'550",
+            "Amortissement à Amortissement & correction de valeur (cumul) s/mat.&mob. pour 24'750",
+            "Amortissement à Amortissement & correction de valeur (cumul) s/mat.&mob. pour 15'550",
+            "Amortissement à Mat.&mob. pour 24'750",
+        ],
+        "answer": 1,
+        "explain": (
+            "L’amortissement dégressif se calcule sur la valeur comptable nette avant amortissement de l'année ∴ Amortissement N = 99'000 × 25% = 24'750 "
+            "Méthode indirecte : on crédite le compte d’amortissement cumulé (actif correcteur) & on débite Amortissement N (Charge) pour 24'750."),
+},
+{
+     "q": "Un immeuble, acquis le 01.01.N-1, est amorti de manière directe et constante au taux de 4%. Sachant que sa valeur comptable au 31.12.N avant amortissements : "
+          "Immeuble = 1'440'000 \n"
+          "A quel montant s'élève l'amortissement au 31.12.N ?",
+        "choices": [
+            "57'600",
+            "60'000",
+            "62'608.70",
+            "Aucune réponses",
+        ],
+        "answer": 1,
+        "explain": (
+            "Il faut retrouver la valeur d’acquisition de l'immeuble qu'on note Y ∴ après 1 an (31.12.N-1), valeur nette = Y - Y × 4% = Y - 0.04Y = (1 - 0.04)Y = 0.96Y "
+            "∴ si 1'440'000 = 0.96Y al. Y = 1'440'00/0.96 = 1'500'000 ∴ l'amortissement constant N = Immeuble N-1 × 4% = 1'500'000 × 4% = 60'000" ),
+},
+{
+     "q": "Quelle est la différence entre un amortissement constant et un amortissement dégressif ?",
+        "choices": [
+            "L’amortissement dégressif est calculé sur la valeur résiduelle (comptable) de l’actif immobilisé.",
+            "L’actif immobilisé est amorti chaque année d’un montant identique avec un amortissement dégressif.",
+            "L’actif immobilisé est amorti de manière indirecte avec un amortissement dégressif.",
+            "Aucune réponses",
+        ],
+        "answer": 0,
+        "explain": (
+            "Amortissement constant : Base de calcul = val. d'acquisition & Montant d'amortissement = similaire chaque année"
+            "Amortissement dégressif : Base de calcul = val. résiduelle & Montant d'amortissement = décroissant chaque année" ),
 }
-
     ]
 
 #-------------------------------------------------------------------------------------------------------------------------------------------
