@@ -338,9 +338,21 @@ QUESTIONS = [
         ],
         "answer": 3,
         "explain": (
-            "EBITDA = EBIT + amortissements. Si amortissements ≥ 0 al. EBITDA ≥ EBIT ∴ EBIT > EBITDA est impossible."),
+            "EBITDA = EBIT + amortissements. Si amortissements ≥ 0 al. EBITDA ≥ EBIT ∴ EBIT > EBITDA est impossible."),   
+},
+{
+     "q": "Parmi les passifs suivants, lesquels pourraient être inclus dans la section des passifs à court terme du bilan ?",
+        "choices": [
+            "Dettes de loyer, emprunt, capital-actions.",
+            "Dettes fournisseurs, dette financière à court terme, produits constatés d’avance.",
+            "Charges à payer, produits reçus d’avance, bénéfices non distribués .",
+            "Partie courante de la dette à long terme, prime d’émission, obligations liées aux prestations de retraite.",
+        ],
+        "answer": 1,
+        "explain": (
+            "Les passifs à c-t sont des dettes/exigibilités qui seront réglées dans l’année (≤ 12 mois)."),
+    "highlight_color": "#ffc107", #jaune
 }
-       
     ]
 
 #-------------------------------------------------------------------------------------------------------------------------------------------
