@@ -366,6 +366,36 @@ QUESTIONS = [
             "Une entreprise est dite rentable si elle réalise un résultat net positif (bénéfice) dans son compte de résultat. "
             "Mais pour survivre, elle doit aussi avoir assez de trésorerie (cash) pour payer ses passifs à c-t."),
     "highlight_color": "#ffc107", #jaune
+},
+{
+     "q": "Que signifie le montant du chiffre d'affaires net ?",
+        "choices": [
+            "Le résultat des ventes après déduction des charges d'exploitation.",
+            "Le montant total des ventes après déduction des réductions accordées.",
+            "La marge brute après déduction des charges d'exploitation.",
+            "Aucune réponse.",
+        ],
+        "answer": 1,
+        "explain": (
+            "Le résultat des ventes (CAN) après déduction des charges d'exploitation (avec amortissements) donne le résutat d'exploitation donc plutôt l'EBIT."
+            "La marge brute après déduction des charges d'exploitation parle d’une marge après les charges donc n'est pas le CAN."),
+},
+{
+     "q": "Sachant : Diminution du stock de marchandises = 15'000 / Achats de marchandises = 385'000 / Déductions accordées aux clients = 17'000 / Total des frais d’achat = 10'000 "
+          "Ventes brutes de marchandises = 517'000 / Rabais obtenus des fournisseurs = 10'000. \n"
+          "Quel est le montant de la marge brute ?",
+        "choices": [
+            "100'000",
+            "117'000",
+            "130'000",
+            "147'000",
+        ],
+        "answer": 0,
+        "explain": (
+            "Ventes nettes de marchandises = Ventes brutes de marchandises - déductions accordées = 517'000 - 17'000 = 500'000 \n"
+            "PRAMA = Achats de marchandises + frais d'achat - rabais obtenus des fournisseurs = 385'000 + 10'000 - 10'000 = 385'000 \n"
+            "PRAMV = PRAMA + diminution du stock de marchandises = 385'000 + 15'0000 = 400'0000 \n"
+            "Marges brutes (MB) = Ventes nettes - PRAMV = 500'000 - 400'000 = 100'000"),
 }
     ]
 
