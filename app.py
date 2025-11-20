@@ -211,7 +211,7 @@ QUESTIONS = [
             "L’opting out est possible avec l’accord de la majorité des actionnaires.",
             "L’opting out est possible avec l’accord de l’unanimité des actionnaires.",
             "L’opting out est possible avec l’accord de l’unanimité des administrateurs.",
-            "L’opting out n’est pas possible pour JARDINS SA.",
+            "L’opting out n’est pas possible.",
         ],
         "answer": 3,
         "explain": (
