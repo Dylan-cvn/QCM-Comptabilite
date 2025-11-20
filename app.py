@@ -352,6 +352,20 @@ QUESTIONS = [
         "explain": (
             "Les passifs à c-t sont des dettes/exigibilités qui seront réglées dans l’année (≤ 12 mois)."),
     "highlight_color": "#ffc107", #jaune
+},
+{
+     "q": "Comment une entreprise peut-elle être rentable et faire faillite ?",
+        "choices": [
+            "Les bénéfices ont augmenté plus rapidement que les ventes.",
+            "L'entreprise a un résultat net positif mais n'a pas réussi à générer des liquidités à partir de ses activités.",
+            "Le résultat net a été ajusté pour tenir compte de l'inflation.",
+            "Les ventes ne se sont pas améliorées malgré l'assouplissement des politiques de crédit.",
+        ],
+        "answer": 1,
+        "explain": (
+            "Une entreprise est dite rentable si elle réalise un résultat net positif (bénéfice) dans son compte de résultat. "
+            "Mais pour survivre, elle doit aussi avoir assez de trésorerie (cash) pour payer ses passifs à c-t."),
+    "highlight_color": "#ffc107", #jaune
 }
     ]
 
