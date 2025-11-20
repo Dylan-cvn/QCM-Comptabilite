@@ -284,8 +284,63 @@ QUESTIONS = [
         "explain": (
             "Cha. fin = 2'500'000 × 2.25% = 56'250 "
             "EBIT = Res. avant intérêts & impôts ∴ avant cha. fin ⇒ l'incidence sur l'EBIT est 0"),
+},
+{ 
+     "q": "Alpina SA présentait pour l’année N un total du bilan 21M, un chiffre d’affaires de 46M et un effectif moyen de 255 employés à plein temps. "
+          "Pour l’année N+1, le total du bilan atteint 23M, le chiffre d’affaires 48M et l’effectif moyen 270 employés. "
+          "Selon le CO, quels éléments Alpina SA doit-elle fournir en plus du bilan et du compte de résultat pour ses états financiers N+1 ?",
+        "choices": [
+            "Une simple annexe et un rapport de durabilité.",
+            "Une annexe étendue et un tableau de flux de trésorerie.",
+            "Un tableau de financement et un rapport spécial sur la gouvernance.",
+            "Un rapport de rémunération obligatoire et une norme IFRS complète.",
+        ],
+        "answer": 1,
+        "explain": (
+            "Alpina dépasse deux des trois seuils CO : bilan > 20 Mio, CA > 40 Mio, EMP > 250 ⇒ grande entreprise ⇒ annexe étendue + tableau des flux de trésorerie."),
+},
+{
+     "q": "Alpimage SA a pour l’année N+1 : Total du bilan à CHF 12 millions / Chiffre d’affaires à CHF 25 millions / Effectif moyen à 80 employés plein temps. "
+          "Alpimage ne dépasse donc aucun des seuils du contrôle ordinaire mais emploi nettement plus que 10 personnes. "
+          "A quel type de contrôle Alpimage SA est-elle soumise et que pourraient demander les actionnaires ?",
+        "choices": [
+            "Contrôle restreint et les actionnaires pourraient demander un contrôle ordinaire.",
+            "Contrôle ordinaire et les actionnaires pourraient demander l’opting out.",
+            "Aucun contrôle légal et les actionnaires ne peuvent pas exiger de contrôle tant que les statuts ne sont pas modifiés.",
+            "Contrôle restreint mais les actionnaires ne peuvent pas exiger de contrôle ordinaire.",
+        ],
+        "answer": 0,
+        "explain": (
+            "Pour Alpimage SA, le contrôle restreint obligatoire & les actionnaires représentant au moins 10 % du capital peuvent exiger un contrôle ordinaire."),
+},
+{
+     "q": "EBITDA = 351'000 / Cha. fin = 15'600 / Prod. fin = 2'400 / impôts = 66'200 / Prod. exc = 24'900 / Res. de l'exercice = 233'800 " 
+          "Calculer l'EBIT N+1.",
+        "choices": [
+            "288'300",
+            "318'000",
+            "338'100",
+            "342'900",
+        ],
+        "answer": 0,
+        "explain": (
+            "EBIT = Res. de l'exercice + impôts + (Cha. fin - prod. fin) + (Cha. hors expl. - prod. hors expl.) + (Cha. exc. - prod. exc) ∴ "
+            "EBIT = 233'800 + 66'200 + (15'600 - 2'400) + 0 + (0 - 24'900) = 288'300"),
+},
+{
+     "q": "Un comptable prévoit un montant d'EBIT supérieur à l'EBITDA pour l'année N+2. " 
+          "Est-ce possible ?",
+        "choices": [
+            "Oui si les amortissements N+2 sont inférieurs à ceux de l’année N+1.",
+            "Oui si les amortissements N+2 sont supérieurs à ceux de l’année N+1.",
+            "Oui si l’entreprise a vendu des actifs immobilisés complètement amortis.",
+            "Non cette situation est impossible.",
+        ],
+        "answer": 3,
+        "explain": (
+            "EBITDA = EBIT + amortissements. Si amortissements ≥ 0 al. EBITDA ≥ EBIT ∴ EBIT > EBITDA est impossible."),
 }
-   
+       
     ]
 
 #-------------------------------------------------------------------------------------------------------------------------------------------
