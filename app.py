@@ -175,7 +175,7 @@ QUESTIONS = [
         "image": "serie_1_balance_verification.png"
 },
 {
-    "q": "L’entreprise « JARDINS SA » est une société anonyme active depuis une dizaine d’années dans le domaine de l’aménagement des espaces extérieurs. " 
+    "q": "L’entreprise « JARDINS SA » est une société anonyme active depuis une dizaine d’années dans le domaine de l’aménagement des espaces extérieurs. \n" 
          "Elle a été fondée par trois frères actifs dans le secteur d’activité depuis de nombreuses années. "
          "La jeune société n’est pas cotée à la bourse. Durant N-1, la société a généré un chiffre d’affaires de 38M et employé 252 prsonnes travaillant plein temps. "
          "le résultat de son bilan le 31.12.N-1 est de 22'295 KCHF. "
