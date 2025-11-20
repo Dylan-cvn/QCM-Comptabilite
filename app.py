@@ -177,7 +177,7 @@ QUESTIONS = [
 {
     "q": "L’entreprise « JARDINS SA » est une société anonyme active depuis une dizaine d’années dans le domaine de l’aménagement des espaces extérieurs. \n" 
          "Elle a été fondée par trois frères actifs dans le secteur d’activité depuis de nombreuses années. \n"
-         "La jeune société n’est pas cotée en bourse. Durant N-1, la société a généré un chiffre d’affaires de 38M et employé 252 prsonnes travaillant plein temps. \n"
+         "La jeune société n’est pas cotée en bourse. Durant N-1, la société a généré un chiffre d’affaires de 38M et employé 252 personnes travaillant plein temps pendant 2 ans consécutifs. \n"
          "le résultat de son bilan le 31.12.N-1 est de 22'295 KCHF. \n"
          "A quel type de contrôle la société est-elle soumise selon le CO ?",
         "choices": [
@@ -345,7 +345,7 @@ QUESTIONS = [
         "choices": [
             "Dettes de loyer, emprunt, capital-actions.",
             "Dettes fournisseurs, dette financière à court terme, produits constatés d’avance.",
-            "Charges à payer, produits reçus d’avance, bénéfices non distribués .",
+            "Charges à payer, produits reçus d’avance, bénéfices non distribués.",
             "Partie courante de la dette à long terme, prime d’émission, obligations liées aux prestations de retraite.",
         ],
         "answer": 1,
@@ -396,7 +396,53 @@ QUESTIONS = [
             "PRAMA = Achats de marchandises + frais d'achat - rabais obtenus des fournisseurs = 385'000 + 10'000 - 10'000 = 385'000|   "
             "PRAMV = PRAMA + diminution du stock de marchandises = 385'000 + 15'0000 = 400'0000|   "
             "Marges brutes (MB) = Ventes nettes - PRAMV = 500'000 - 400'000 = 100'000"),
+},
+{
+    "q": "01.01.N, stock de marchandises = 24'0000 mais au 31.12.N, il s’élève à 30'000. Quelle écriture l’entreprise doit-elle comptabiliser au 31.12.N ?",
+        "choices": [
+            "De variation de stock à stock de marchandises pour 30'000.",
+            "De variation de stock à stock de marchandises pour 6'000.",
+            "De stock de marchandises à variation de stock pour 30'000.",
+            "De stock de marchandises à variation de stock pour 6'000.",
+        ],
+        "answer": 3,
+        "explain": (
+            "Stock 01.01.N = 24'000 & Stock 31.12.N = 30'000 ∴ Stock augmente de 6'000. "
+            "Quand le stock augmente, on comptabilise stock de marchandises au débit (compte d'actif) à variation de stock au crédit (compte de charge) pour 6'000."),
+},
+{
+     "q": "Sachant : impôts = 100'000 / Créances résultant de ventes = 246'800 / Loyer = 1'000'000 / Frais de télécommunication = 150'000 / "
+          "Cha. fin = 23'000 / Frais de déplacement = 800'000 / amortissements = 482'000 / Stocks de marchandises = 982'000 / "
+          "Frais de personnel = 36'000'000 / Frais de publicité = 45'000 / Ventes réalisées = 39'000'000. \n"
+          "Quel est le montant du résultat avant amortissement ?",
+        "choices": [
+            "882'000",
+            "905'000",
+            "1'005'000",
+            "Aucunes réponses",
+        ],
+        "answer": 0,
+        "explain": (
+            "On cherche le résultat avant amortissement (et non pas l'EBITDA) donc Ventes réalisées - Charges sauf amortissement. "
+            "Ventes réalisées - Impôts - Loyer - Frais télécommunication - Cha. fin - Frais déplacement - Frais personnel - Frais publicité = "
+            "39'000'000 - 100'000 - 1'000'000 - 150'000 - 23'000 - 800'000 - 36'000'000 - 45'000 = 882'000 "
+            "On exclut créances résultant de ventes & stocks de marchandises car se sont des comptes d'actifs."),
+},
+{
+     "q": "Une entreprise soumise à la TVA réalise des ventes pour un montant de 200'000 + TVA 15'400. "
+          "Cette même entreprise a payé des charges et investissements pour un montant de 70'000 + TVA 5'390. \n"
+          "Quel montant de TVA cette entreprise doit-elle verser à l’administration fédérale des contributions ?",
+        "choices": [
+            "10'010",
+            "15'400",
+            "20'790",
+            "Aucunes réponses",
+        ],
+        "answer": 0,
+        "explain": (
+            "TVA due = TVA collecté sur ventes - TVA récupérable sur achats = 15'400 - 5'390 = 10'010 étant la TVA que l'entreprise doit verser."),
 }
+
     ]
 
 #-------------------------------------------------------------------------------------------------------------------------------------------
