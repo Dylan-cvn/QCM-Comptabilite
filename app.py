@@ -392,9 +392,9 @@ QUESTIONS = [
         ],
         "answer": 0,
         "explain": (
-            "Ventes nettes de marchandises = Ventes brutes de marchandises - déductions accordées = 517'000 - 17'000 = 500'000.   "
-            "PRAMA = Achats de marchandises + frais d'achat - rabais obtenus des fournisseurs = 385'000 + 10'000 - 10'000 = 385'000.   "
-            "PRAMV = PRAMA + diminution du stock de marchandises = 385'000 + 15'0000 = 400'0000.   "
+            "Ventes nettes de marchandises = Ventes brutes de marchandises - déductions accordées = 517'000 - 17'000 = 500'000|   "
+            "PRAMA = Achats de marchandises + frais d'achat - rabais obtenus des fournisseurs = 385'000 + 10'000 - 10'000 = 385'000|   "
+            "PRAMV = PRAMA + diminution du stock de marchandises = 385'000 + 15'0000 = 400'0000|   "
             "Marges brutes (MB) = Ventes nettes - PRAMV = 500'000 - 400'000 = 100'000"),
 }
     ]
