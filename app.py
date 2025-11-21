@@ -505,12 +505,39 @@ QUESTIONS = [
             "Sur la valeur résiduelle de l’actif immobilisé",
             "Sur la valeur comptable de l’actif immobilisé",
             "Sur la valeur d’achat de l’actif immobilisé moins les amortissements cumulés déjà comptabilisés",
-            "Aucune réponses",
+            "Sur la valeur d’achat de l’actif immobilisé moins sa valeur résiduelle",
         ],
         "answer": 3,
         "explain": (
-            "Le calcul de l'amortissement constant indirect se fait avec la val. d'acquisition -val. résiduelle. "
-            "..."),
+            "Un amortissement constant indirect est calculé en répartissant chaque année le coût amortissable de l’actif (coût d’acquisition – valeur résiduelle) " 
+            "via un compte d’amortissements cumulés."),
+},
+{
+     "q": "Le 31.08.N, une entreprise a contracté une dette d’un montant de 233'000 dont le taux d’intérêt s’élève à 5%. \n"
+          "Quelle écriture l’entreprise doit-elle comptabiliser au 31.12.N (résultat arrondi à 5 centimes) ?",
+        "choices": [
+            "Cha. fin. à Cha. payées d'avance pour 7'766.65",
+            "Prod. à recevoir à Prod. fin. pour 3'883.35",
+            "Cha. fin. à Cha. à payer pour 7'766.65",
+            "Cha. fin. à Cha. à payer pour 3'883.35",
+        ],
+        "answer": 3,
+        "explain": (
+            "Il faut comptabiliser les intérêts courus non échus au 31.12.N, soit 233'000 × 5% × [(31.12.N - 31.08.N)/12] = 3'883.35 " 
+            "en Cha. fin. à Cha. à payer (dette d'intérêts)"),
+},
+{
+     "q": "Une entreprise est propriétaire d’un immeuble. Un locataire paiera le 30.01.N+1 la somme totale de 5'200 pour son loyer de décembre N & janvier N+1."
+          "Quelle écriture l’entreprise doit-elle comptabiliser au 31.12.N ?",
+        "choices": [
+            "Prod. à recevoir à Prod. d'immeuble pour 2'600",
+            "Prod. à recevoir à Prod. d'immeuble pour 5'200",
+            "Prod. d'immeuble à Prod. reçu d'avance pour 2'600",
+            "Loyer à Prod. d'immeuble pour 5'200",
+        ],
+        "answer": 0,
+        "explain": (
+            "Sur les 5'200 de loyer couvrant décembre N et janvier N+1, seule la part du mois de décembre (5'200/2 = 2'600) doit être rattachée à l’exercice N comme produit à recevoir. "),
 }
     ]
 
