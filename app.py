@@ -542,7 +542,7 @@ QUESTIONS = [
 {
 "q": "Au 31.12.N, sur la base des informations ci-dessous, quel est le montant des intérêts courus sur la dette hypothécaire, taux d’intérêt 4,25 %, échéance 30 juin ?"
      "Valeurs comptables au 31.12.N : Immeuble acquis le 01.01.N-1 pour 1'440'000 & Dette hypothécaire 644'200"
-        "choices": [
+    "choices": [
             "13'689.25",
             "14'494.50",
             "27'378.50",
