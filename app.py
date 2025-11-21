@@ -498,6 +498,19 @@ QUESTIONS = [
         "explain": (
             "Amortissement constant : Base de calcul = val. d'acquisition & Montant d'amortissement = similaire chaque année"
             "Amortissement dégressif : Base de calcul = val. résiduelle & Montant d'amortissement = décroissant chaque année" ),
+},
+{
+     "q": "De quelle manière un amortissement constant indirect d’un actif immobilisé est-il calculé ?",
+        "choices": [
+            "Sur la valeur résiduelle de l’actif immobilisé",
+            "Sur la valeur comptable de l’actif immobilisé",
+            "Sur la valeur d’achat de l’actif immobilisé moins les amortissements cumulés déjà comptabilisés",
+            "Aucune réponses",
+        ],
+        "answer": 3,
+        "explain": (
+            "Le calcul de l'amortissement constant indirect se fait avec la val. d'acquisition -val. résiduelle. "
+            "..."),
 }
     ]
 
