@@ -540,9 +540,9 @@ QUESTIONS = [
             "Sur les 5'200 de loyer couvrant décembre N et janvier N+1, seule la part du mois de décembre (5'200/2 = 2'600) doit être rattachée à l’exercice N comme produit à recevoir. "),
 },
 {
-"q": "Au 31.12.N, sur la base des informations ci-dessous, quel est le montant des intérêts courus sur la dette hypothécaire, taux d’intérêt 4,25 %, échéance 30 juin ?"
-     "Valeurs comptables au 31.12.N : Immeuble acquis le 01.01.N-1 pour 1'440'000 & Dette hypothécaire 644'200"
-    "choices": [
+    "q": "Au 31.12.N, sur la base des informations ci-dessous, quel est le montant des intérêts courus sur la dette hypothécaire, taux d’intérêt 4,25 %, échéance 30 juin ?"
+         "Valeurs comptables au 31.12.N : Immeuble acquis le 01.01.N-1 pour 1'440'000 & Dette hypothécaire 644'200"
+        "choices": [
             "13'689.25",
             "14'494.50",
             "27'378.50",
@@ -552,9 +552,9 @@ QUESTIONS = [
         "explain": (
             "Les intérêts courus au 31.12.N correspondent aux intérêts de 6 mois (du 30.06.N au 31.12.N) sur la dette hypothécaire de 644'200 au taux annuel de 4,25 %, soit "
             "644'200 × 4.25% × 6/12 = 13'689.25"),
-}
+},
+]
 
-    ]
 
 #-------------------------------------------------------------------------------------------------------------------------------------------
 # CONFIGURATION ET VARIABLES GLOBALES
