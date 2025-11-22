@@ -527,7 +527,7 @@ QUESTIONS = [
             "en Cha. fin. à Cha. à payer (dette d'intérêts)"),
 },
 {
-     "q": "Une entreprise est propriétaire d’un immeuble. Un locataire paiera le 30.01.N+1 la somme totale de 5'200 pour son loyer de décembre N & janvier N+1."
+     "q": "Une entreprise est propriétaire d’un immeuble. Un locataire paiera le 30.01.N+1 la somme totale de 5'200 pour son loyer de décembre N & janvier N+1. \n"
           "Quelle écriture l’entreprise doit-elle comptabiliser au 31.12.N ?",
         "choices": [
             "Prod. à recevoir à Prod. d'immeuble pour 2'600",
@@ -540,7 +540,7 @@ QUESTIONS = [
             "Sur les 5'200 de loyer couvrant décembre N et janvier N+1, seule la part du mois de décembre (5'200/2 = 2'600) doit être rattachée à l’exercice N comme produit à recevoir. "),
 },
 {
-    "q": "Au 31.12.N, sur la base des informations ci-dessous, quel est le montant des intérêts courus sur la dette hypothécaire, taux d’intérêt 4,25 %, échéance 30 juin ?"
+    "q": "Au 31.12.N, sur la base des informations ci-dessous, quel est le montant des intérêts courus sur la dette hypothécaire ? Sachant que le taux d’intérêt 4.25 % & échéance le 30 juin."
          "Valeurs comptables au 31.12.N : Immeuble acquis le 01.01.N-1 pour 1'440'000 & Dette hypothécaire 644'200",
         "choices": [
             "13'689.25",
@@ -550,9 +550,55 @@ QUESTIONS = [
         ],
         "answer": 0,
         "explain": (
-            "Les intérêts courus au 31.12.N correspondent aux intérêts de 6 mois (du 30.06.N au 31.12.N) sur la dette hypothécaire de 644'200 au taux annuel de 4,25 %, soit "
+            "Les intérêts courus au 31.12.N correspondent aux intérêts de 6 mois (du 30.06.N au 31.12.N) sur la dette hypothécaire de 644'200 au taux annuel de 4.25 %, soit "
             "644'200 × 4.25% × 6/12 = 13'689.25"),
 },
+{
+    "q": "Une prime annuelle de 1'500 d'assurance vol couvrant les risques liés au stock de marchandises a été payée le 31.03.N, valable jusqu'au 31.03.N+1. \n"
+         "Quelle écriture l’entreprise doit-elle comptabiliser au 31.12.N ?",
+        "choices": [
+            "Assurances à Cha. à payer pour 375.",
+            "Cha. payées d'avance à Assurances pour 1'125",
+            "Assurances à Banque pour 1'125",
+            "Cha. payées d'avance à Assurances pour 375",
+        ],
+        "answer": 3,
+        "explain": (
+            "On a payé une prime annuelle de 1'500 le 31.03.N pour la période du 31.03.N au 31.03.N+1 ∴ 31.03.N au 31.12.N = 9 mois pour l'exercice N & "
+            "01.01.N+1 au 31.03.N+1 = 3 mois pour l'exercice N+1. Aisi, la part de la prime pour N : 1'500 × 9/12 = 1'125 (Assurances). "
+            "La part de la prime pour N+1 : 1'500 × 3/12 = 375 (Cha. payer d'avance). "
+            "Au 31.12.N, il faut reclasser la partie N+1 : Cha. payé d'avance à Assurances pour 375"),
+},
+{
+    "q": "Quelle est la conséquence de la comptabilisation d’un actif transitoire ?",
+        "choices": [
+            "L’augmentation d’une charge d’exploitation.",
+            "La diminution d’un produit d’exploitation.",
+            "Une augmentation du résultat d’exploitation.",
+            "Aucune réponses",
+        ],
+        "answer": 2,
+        "explain": (
+            "Quand on comptabilise un actif transitoire (cha. payées d’avance), on fait l’écriture : Actif transitoire (Cha. payées d’avance) à Cha. d’exp. "
+            "Cette écriture diminue Cha. d’exp. car on retire de la charge la partie qui concerne N+1. "
+            "Ainsi, moins de charge = résultat d'exploitation plus élevé."),
+},
+{
+    "q": "La correction de valeur sur créances clients (ducroire) doit s’élever à 5% du montant des créances résultant de ventes. "
+         "Sur la base des informations ci-dessous, quelle écriture l’entreprise doit-elle comptabiliser au 31.12.N ? "
+         "Val. comptable au 31.12.N avant ajustement : Créances clients = 24'400 & Ducroire = 2'000",
+        "choices": [
+            "Pertes s/créances à Corr. de valeur s/créances clients pour 1'220",
+            "Corr. de valeur s/créances clients à Créances clients pour 780",
+            "Corr. de valeur s/créances clients à Pertes s/créances pour 780",
+            "Corr. de valeur s/créances clients à Pertes s/créances pour 1'220",
+        ],
+        "answer": 2,
+        "explain": (
+            "CRéances clients = 24'400 ∴ Corr. de valeur au 31.12.n : 24'400 × 5% = 1'220 ⇒ Ajustement du Ducroire : Corr. souhaitée - Corr. actuelle = 1'220 − 2'000 = −780. "
+            "Si on réduit le ducroire, on comptabilise Corr. de valeur s/créances clients à Pertes s/créances pour 780 "),
+}
+
 ]
 
 
