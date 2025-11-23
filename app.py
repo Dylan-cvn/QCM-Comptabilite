@@ -595,10 +595,129 @@ QUESTIONS = [
         ],
         "answer": 2,
         "explain": (
-            "CRéances clients = 24'400 ∴ Corr. de valeur au 31.12.n : 24'400 × 5% = 1'220 ⇒ Ajustement du Ducroire : Corr. souhaitée - Corr. actuelle = 1'220 − 2'000 = −780. "
+            "Créances clients = 24'400 ∴ Corr. de valeur au 31.12.n : 24'400 × 5% = 1'220 ⇒ Ajustement du Ducroire : Corr. souhaitée - Corr. actuelle = 1'220 − 2'000 = −780. "
             "Si on réduit le ducroire, on comptabilise Corr. de valeur s/créances clients à Pertes s/créances pour 780 "),
-}
-
+},
+{
+    "q": "Lors de l’achat d’un titre de placement sous la forme d’une action qui supporte la charge des intérêts courus ? ",
+        "choices": [
+            "L'acheteur des titres.",
+            "Le vendeur des titres.",
+            "L'acheteur et le vendeur à parts égales.",
+            "Il n'y a pas d'intérêts courus lors de l'achat d'actions.",
+        ],
+        "answer": 2,
+        "explain": (
+            "Les actions ne génèrent pas d’intérêts (seulement des dividendes éventuels), "
+            "la notion d’intérêts courus ne s’applique qu’aux titres à intérêt comme les obligations, pas aux actions."),
+},
+{
+    "q": "Quelle est la caractéristique d’un titre sous la forme d’une obligation ? ",
+        "choices": [
+            "C’est une part du capital de l’entreprise.",
+            "Il est toujours remboursé en cas de faillite de l’entreprise.",
+            "Le taux d'intérêt annuel est fixe.",
+            "Aucune réponses",
+        ],
+        "answer": 2,
+        "explain": (
+            "L'obligation est un titre de créance qui verse des intérêts réguliers (souvent fixes) à son détenteur, "
+            "contrairement aux actions qui représentent une part du capital et ne garantissent ni intérêt fixe ni remboursement automatique en cas de faillite."),
+},
+{
+    "q": "Quelle est la caractéristique d’un titre sous la forme d’une obligation ? ",
+        "choices": [
+            "C’est une part du capital de l’entreprise.",
+            "Il est toujours remboursé en cas de faillite de l’entreprise.",
+            "Le taux d'intérêt annuel est fixe.",
+            "Aucune réponses",
+        ],
+        "answer": 2,
+        "explain": (
+            "L'obligation est un titre de créance qui verse des intérêts réguliers (souvent fixes) à son détenteur, "
+            "contrairement aux actions qui représentent une part du capital et ne garantissent ni intérêt fixe ni remboursement automatique en cas de faillite."),
+},
+{
+    "q": "Quelle est le montant des actifs circulants ? \n"
+         "Informations comptables : Banque (100'000), Créances résultants des ventes (246'800), Pertes s/créances (24'500), Dettes résultant d’achats (150’000), "
+         "Mobilier (235'000), Impôts anticipé à payer (16'500), Charges payées d’avance (2'900), Stock (169'800), Capital-actions (250'000), Licences (145'000), Produits à recevoir (32'500).",
+        "choices": [
+            "524'500",
+            "527'500",
+            "549'100",
+            "552'000",
+        ],
+        "answer": 1,
+        "explain": (
+            "Actifs circulants = Banque (100'000) + Clients (246'800) - Pertes s/créances (24'500) + Charges payées d’avance (2'900) + Stock (169'800) + Produits à recevoir (32'500) = 527'500 "),
+},
+{
+    "q": "Avant la clôture, le comptable a oublié de comptabiliser l’intérêt semestriel en faveur de la Banque Raiffeisen CHF 1'522. "
+         "Quelle écriture l’entreprise doit-elle comptabiliser ? ",
+        "choices": [
+            "Banque Raiffeisen à Prod.fin pour 1'522",
+            "Cha.fin à Banque Raiffeisen pour 2'341.55",
+            "Cha.fin à Banque Raiffeisen pour 1'522",
+            "Banque Raiffeisen (1'522) et IA à récupérer (819.55) à prod.fin pour 2'341.55",
+        ],
+        "answer": 2,
+        "explain": (
+            "L’intérêt semestriel en faveur de la Banque Raiffeisen signifie que l’entreprise doit payer 1'522 à la banque, "
+            "ce qui constitue pour elle une charge financière (débit Cha.fin) et une diminution de la banque ou une dette envers la banque (crédit Banque Raiffeisen)."),
+},
+{
+    "q": "Quel montant est comptabilisé lors du paiement d’une annuité hypothécaire ? ",
+        "choices": [
+            "Le montant des intérêts annuels est comptabilisé au débit du compte « Hypothèque ».",
+            "Le montant de l’annuité hypothécaire est comptabilisé au débit du compte « Hypothèque »",
+            "Le montant du remboursement de la dette hypothécaire est comptabilisé au crédit du compte « Hypothèque »",
+            "Aucune réponses",
+        ],
+        "answer": 2,
+        "explain": (
+            "Lors du paiement d’une annuité, c’est la partie remboursant la dette qui est comptabilisée au crédit du compte Hypothèque "
+            "(et la partie intérêts va en charges financières, pas dans Hypothèque). "),
+},
+{
+    "q": "Une entreprise paie une annuité hypothécaire de CHF 3'000 le 30.06.N date d’échéance d’une hypothèque d’un montant de 75'000 à un taux d’intérêt de 2.5%. \n"
+         "Quel est le montant du remboursement de l’hypothèque effectué le 30.06.N ?",
+        "choices": [
+            "1'125",
+            "1'875",
+            "3'000",
+            "Aucune réponses",
+        ],
+        "answer": 0,
+        "explain": (
+            "L’annuité payée est 3'000. Les intérêts sur l’hypothèque se calculent ainsi : 75'000 × 2.5% = 1'875. "
+            "Donc, dans l’annuité de 3'000, l'intérêt représente 1'875 & le reste du remboursement : 3'000 - 1'875 = 1′125. "
+            "Le remboursement effectif de l’hypothèque le 30.06.N est donc de 1'125"),
+},
+{
+    "q": "Que sont des tantièmes versés par une société anonyme ?",
+        "choices": [
+            "C’est une part du bénéfice versée aux actionnaires.",
+            "C’est une part du bénéfice versée aux administrateurs.",
+            "C’est un bonus versé aux collaborateurs.",
+            "Aucune réponses",
+        ],
+        "answer": 1,
+        "explain": (
+            "C'est une rémunération prélevée sur le bénéfice et versée aux membres du conseil d’administration, pas aux actionnaires ni aux employés."),
+},
+{
+    "q": "Que sont des tantièmes versés par une société anonyme ?",
+        "choices": [
+            "C’est une part du bénéfice versée aux actionnaires.",
+            "C’est une part du bénéfice versée aux administrateurs.",
+            "C’est un bonus versé aux collaborateurs.",
+            "Aucune réponses",
+        ],
+        "answer": 1,
+        "explain": (
+            "C'est une rémunération prélevée sur le bénéfice et versée aux membres du conseil d’administration, pas aux actionnaires ni aux employés."),
+},
+    
 ]
 
 
