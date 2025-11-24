@@ -717,7 +717,57 @@ QUESTIONS = [
         "explain": (
             "C'est une rémunération prélevée sur le bénéfice et versée aux membres du conseil d’administration, pas aux actionnaires ni aux employés."),
 },
-    
+{
+    "q": "Quelle est la nature du compte « dividendes nets » avant leur versement aux actionnaires ?",
+        "choices": [
+            "C’est un compte d’actifs circulants.",
+            "C’est un compte de charges.",
+            "C’est un compte de capitaux propres.",
+            "C’est un compte de capitaux étrangers à court terme.",
+        ],
+        "answer": 3,
+        "explain": (
+            "Avant leur versement, les dividendes nets représentent une dette envers les actionnaires, donc un passif à court terme."),
+},
+{ 
+    "q": "Quelle est la nature du compte « impôt anticipé à récupérer » ?",
+        "choices": [
+            "C’est un compte de produits.",
+            "C’est un compte de capitaux étrangers à court terme.",
+            "C’est un compte de charges.",
+            "C’est un compte d’actifs circulants.",
+        ],
+        "answer": 3,
+        "explain": (
+            "L’impôt anticipé à récupérer est une créance envers l’Etat, donc une somme que l’entreprise récupérera prochainement."),
+},
+{
+    "q": "La TVA est un impôt fédéral indirect. Qui supporte la charge fiscale de cet impôt ?",
+        "choices": [
+            "Le consommateur final",
+            "Les entreprises",
+            "L'Etat",
+            "Aucune réponses",
+        ],
+        "answer": 3,
+        "explain": (
+            "La TVA est un impôt indirect, les entreprises ne font que la collecter et la reverser à l’Etat, mais c’est le consommateur final qui en supporte réellement les coûts."),
+},
+{
+    "q": "Au 31.12.N, selon l’avis de crédit de la banque, les intérêts nets sur le compte courant bancaire s’élèvent à 530. \n"
+         "Quelle écriture l’entreprise doit-elle comptabiliser ? (montant arrondi à 5cts) ",
+        "choices": [
+            "Banque (530) à Prod.fin (344.50) et impôts anticipé à récupérer (185.50)",
+            "Cha.fin à Banque Raiffeisen pour 2'341.55",
+            "Cha.fin à Banque Raiffeisen pour 1'522",
+            "Banque Raiffeisen (1'522) et IA à récupérer (819.55) à prod.fin pour 2'341.55",
+        ],
+        "answer": 2,
+        "explain": (
+            "L’intérêt semestriel en faveur de la Banque Raiffeisen signifie que l’entreprise doit payer 1'522 à la banque, "
+            "ce qui constitue pour elle une charge financière (débit Cha.fin) et une diminution de la banque ou une dette envers la banque (crédit Banque Raiffeisen)."),
+},
+      
 ]
 
 
