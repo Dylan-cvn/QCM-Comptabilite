@@ -785,7 +785,58 @@ QUESTIONS = [
         "explain": (
             "L’assemblée générale des actionnaires élit et nomme les membres du conseil d’administration dans une société anonyme. "
             " Contrairement aux Sàrl où ce sont bien les associés qui nomment les gérants."),
-}      
+},
+{
+    "q": "Complétez le texte : Les entreprises doivent atteindre 2 des 3 critères suivants pendant 2 années consécutives pour être soumises au contrôle ordinaire : "
+         " chiffre d'affaires net ... millions, total du bilan ... millions, nombre de collaborateurs à plein temps ... en moyenne.",
+        "choices": [
+            "30/10/200",
+            "30/15/250",
+            "40/20/250",
+            "50/25/300",
+        ],
+        "answer": 2,
+        "explain": (
+            "Selon le CO : CAN ≥ 40 millions, total du bilan ≥ 20 millions et ≥ 250  EPT en moyenne. "),
+},
+{
+    "q": "Pour une entreprise de moins de 10 EPT quelle condition doit-elle respecter pour un opting out ?",
+        "choices": [
+            "L'unanimité des actionnaires.",
+            "L'unanimité des administrateurs.",
+            "La majorité des actionnaires.",
+            "La majorité des administrateurs.",
+        ],
+        "answer": 0,
+        "explain": (
+            "Pour une entreprise de moins de 10 EPT, un opting-out (renonciation au contrôle restreint) n’est valable que si tous les actionnaires y consentent expressément, " 
+            "la loi exige l’unanimité des actionnaires pour supprimer l’audit."),
+},
+{
+    "q": "Sous quelle condition une entreprise soumise au contrôle ordinaire peut-elle réaliser un contrôle restreint ?",
+        "choices": [
+            "L'unanimité des actionnaires.",
+            "L'unanimité des administrateurs.",
+            "La majorité des actionnaires.",
+            "Une entreprise sous contrôle ordinaire ne peut jamais réaliser un contrôle restreint",
+        ],
+        "answer": 3,
+        "explain": (
+            "Une société qui remplit les conditions du contrôle ordinaire est obligatoirement auditée selon le COet ne peut pas la remplacer par un contrôle restreint, même avec l’accord des actionnaires."), 
+},
+{
+    "q": "A la bourse suisse, quelle norme comptable doit respecter une entreprise cotée sur le marché international ?",
+        "choices": [
+            "Swiss Gaap ou IFRS",
+            "Swiss Gaap ou US Gaap",
+            "US Gaap ou IFRS ",
+            "Swiss Gaap RPC",
+        ],
+        "answer": 2,
+        "explain": (
+            "Une entreprise cotée sur un marché international doit appliquer une norme comptable reconnue mondialement, " 
+            "ce qui n'est le cas que des IFRS ou US GAAP, alors que Swiss GAAP RPC est limité au marché suisse."),
+}
 ]
 
 
