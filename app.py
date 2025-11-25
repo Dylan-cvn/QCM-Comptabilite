@@ -457,7 +457,7 @@ QUESTIONS = [
             "Le client représente 10 % de ces ventes ⇒ 25′000 × 10% = 2'500 puis remise accordée de 5 % sur ses achats ⇒ 2'500 × 5% = 125"),
 },
 {
-     "q": "Le matériel et mobilier est amorti de manière indirecte et décroissante au taux de 25%. Sachant que sa valeur comptable au 31.12.N avant amortissements : "
+     "q": "Le matériel et mobilier est amorti de manière indirecte et décroissante au taux de 25%. Sachant que sa valeur comptable nette au 31.12.N avant amortissements : "
           "Mat.&mob. = 99'000 tandis que Amortissement & correction de valeur (cumul) s/mat.&mob. = 36'800. \n"
           "Quel écriture l'entreprise doit-elle comptabiliser le 31.12.N ?",
         "choices": [
@@ -606,23 +606,10 @@ QUESTIONS = [
             "L'acheteur et le vendeur à parts égales.",
             "Il n'y a pas d'intérêts courus lors de l'achat d'actions.",
         ],
-        "answer": 2,
+        "answer": 3,
         "explain": (
             "Les actions ne génèrent pas d’intérêts (seulement des dividendes éventuels), "
             "la notion d’intérêts courus ne s’applique qu’aux titres à intérêt comme les obligations, pas aux actions."),
-},
-{
-    "q": "Quelle est la caractéristique d’un titre sous la forme d’une obligation ? ",
-        "choices": [
-            "C’est une part du capital de l’entreprise.",
-            "Il est toujours remboursé en cas de faillite de l’entreprise.",
-            "Le taux d'intérêt annuel est fixe.",
-            "Aucune réponses",
-        ],
-        "answer": 2,
-        "explain": (
-            "L'obligation est un titre de créance qui verse des intérêts réguliers (souvent fixes) à son détenteur, "
-            "contrairement aux actions qui représentent une part du capital et ne garantissent ni intérêt fixe ni remboursement automatique en cas de faillite."),
 },
 {
     "q": "Quelle est la caractéristique d’un titre sous la forme d’une obligation ? ",
@@ -652,13 +639,13 @@ QUESTIONS = [
             "Actifs circulants = Banque (100'000) + Clients (246'800) - Pertes s/créances (24'500) + Charges payées d’avance (2'900) + Stock (169'800) + Produits à recevoir (32'500) = 527'500 "),
 },
 {
-    "q": "Avant la clôture, le comptable a oublié de comptabiliser l’intérêt semestriel en faveur de la Banque Raiffeisen CHF 1'522. "
+    "q": "Avant la clôture, le comptable a oublié de comptabiliser l’intérêt semestriel en faveur de la Banque Raiffeisen 1'522. "
          "Quelle écriture l’entreprise doit-elle comptabiliser ? ",
         "choices": [
             "Banque Raiffeisen à Prod.fin pour 1'522",
             "Cha.fin à Banque Raiffeisen pour 2'341.55",
             "Cha.fin à Banque Raiffeisen pour 1'522",
-            "Banque Raiffeisen (1'522) et IA à récupérer (819.55) à prod.fin pour 2'341.55",
+            "Banque Raiffeisen (1'522) et IA à récupérer (819.55) à Prod.fin pour 2'341.55",
         ],
         "answer": 2,
         "explain": (
@@ -673,7 +660,7 @@ QUESTIONS = [
             "Le montant du remboursement de la dette hypothécaire est comptabilisé au crédit du compte « Hypothèque »",
             "Aucune réponses",
         ],
-        "answer": 2,
+        "answer": 3,
         "explain": (
             "Lors du paiement d’une annuité, c’est la partie remboursant la dette qui est comptabilisée au crédit du compte Hypothèque "
             "(et la partie intérêts va en charges financières, pas dans Hypothèque). "),
@@ -692,18 +679,6 @@ QUESTIONS = [
             "L’annuité payée est 3'000. Les intérêts sur l’hypothèque se calculent ainsi : 75'000 × 2.5% = 1'875. "
             "Donc, dans l’annuité de 3'000, l'intérêt représente 1'875 & le reste du remboursement : 3'000 - 1'875 = 1′125. "
             "Le remboursement effectif de l’hypothèque le 30.06.N est donc de 1'125"),
-},
-{
-    "q": "Que sont des tantièmes versés par une société anonyme ?",
-        "choices": [
-            "C’est une part du bénéfice versée aux actionnaires.",
-            "C’est une part du bénéfice versée aux administrateurs.",
-            "C’est un bonus versé aux collaborateurs.",
-            "Aucune réponses",
-        ],
-        "answer": 1,
-        "explain": (
-            "C'est une rémunération prélevée sur le bénéfice et versée aux membres du conseil d’administration, pas aux actionnaires ni aux employés."),
 },
 {
     "q": "Que sont des tantièmes versés par une société anonyme ?",
@@ -757,17 +732,60 @@ QUESTIONS = [
     "q": "Au 31.12.N, selon l’avis de crédit de la banque, les intérêts nets sur le compte courant bancaire s’élèvent à 530. \n"
          "Quelle écriture l’entreprise doit-elle comptabiliser ? (montant arrondi à 5cts) ",
         "choices": [
-            "Banque (530) à Prod.fin (344.50) et impôts anticipé à récupérer (185.50)",
-            "Cha.fin à Banque Raiffeisen pour 2'341.55",
-            "Cha.fin à Banque Raiffeisen pour 1'522",
-            "Banque Raiffeisen (1'522) et IA à récupérer (819.55) à prod.fin pour 2'341.55",
+            "Banque (530) à Prod.fin (344.50) et IA à récupérer (185.50)",
+            "IA à récupérer (185.50) et Banque (344.50) à Prod.fin pour 530",
+            "Cha.fin (344.50) et Impôt anticipé à récupérer (185.50) à Banque pour 530",
+            "Banque (530) et IA à récupérer (285.40) à Prod.fin pour 815.40",
+        ],
+        "answer": 3,
+        "explain": (
+            "Les intérêts nets reçus (530) correspondent aux intérêts bruts après l'IA retenu de 35% (185.50), donc on doit recalculer les intérêts bruts : "
+            "Banque ou intérêts nets (530) / 65% = 815.40 et l’IA à récupérer : intérêts bruts (815.40) × 35 % = 285.40. "
+            "ce qui donne l’écriture : Banque (530) et IA à récupérer (285.40) à Prod.fin (815.40)."),
+},
+{
+    "q": "Une entreprise a contracté le 01.01.N, une hypothèque de 1'200'000. Le montant de l’annuité hypothécaire pour l’année N s’élève à 64'000. "
+         "Elle comprend un remboursement de CHF 40'000. \n"
+         "Sur la base des informations précédentes, quel est le taux d’intérêt de l’hypothèque ?",
+        "choices": [
+            "2%",
+            "3.33%",
+            "5.33%",
+            "Aucune réponses",
+        ],
+        "answer": 0,
+        "explain": (
+            "Intérêts = annuité (64'000) - remboursement (40'000) = 24'000. "
+            "Taux d'intérêt de l'hypothèque = Intérêts (24'000) / Hypothèque (1'200'000) = 2% "),
+},
+{
+    "q": "Une entreprise achète un nouveau véhicule pour 25'200. Le garagiste reprend un ancien véhicule pour 12'000. "
+         "Ce dernier avait été acheté pour 24'000 il y a quelques années et les amortissements effectués à ce jour s’élèvent à 5'400. \n"
+         "Quel résultat l’entreprise a-t-elle réalisé sur la reprise de son ancien véhicule ?",
+        "choices": [
+            "gain de 1'200",
+            "perte de 6'600",
+            "perte de 12'000",
+            "Aucune réponses",
+        ],
+        "answer": 1,
+        "explain": (
+            "Valeur comptable de l’ancien véhicule = Ancien véhicule (24'000) - Amortissements (5'400) = 18'600 mais reprise du garagiste à 12'000 ∴ "
+            "perte =  reprise (12'000) - Valeur comptable de l’ancien véhicule (18'600) = -6'600 "),
+},
+{
+    "q": "Quel organe d’une société anonyme nomme le conseil d’administration ?",
+        "choices": [
+            "Le conseil de direction",
+            "Le conseil de fondation",
+            "L'assemblée générale",
+            "Les associés",
         ],
         "answer": 2,
         "explain": (
-            "L’intérêt semestriel en faveur de la Banque Raiffeisen signifie que l’entreprise doit payer 1'522 à la banque, "
-            "ce qui constitue pour elle une charge financière (débit Cha.fin) et une diminution de la banque ou une dette envers la banque (crédit Banque Raiffeisen)."),
-},
-      
+            "L’assemblée générale des actionnaires élit et nomme les membres du conseil d’administration dans une société anonyme. "
+            " Contrairement aux Sàrl où ce sont bien les associés qui nomment les gérants."),
+}      
 ]
 
 
