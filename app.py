@@ -853,7 +853,7 @@ QUESTIONS = [
 },
 {
     "q": "En raison de la faillite d’un client, 10% des créances résultant de ventes doit être passé en pertes s/créances. " 
-         "La provision pour pertes s/créances doit se monter à 6% du total des créances résultant des ventes & 100% des créances douteuses. "
+         "La provision pour pertes s/créances doit se monter à 6% du total des créances résultant des ventes & 100% des créances douteuses. \n "
          "Quel est l’effet sur le compte de résultat N ? ",
         "choices": [
             "Produit de 4'470",
