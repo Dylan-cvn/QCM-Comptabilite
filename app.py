@@ -881,7 +881,7 @@ QUESTIONS = [
         "explain": (
             "Sachant que la val. d'acquisition est de 800'000 (N-2) & Amortissement & corr. de valeur s/Immeuble est de 48'000. "
             "En amortissement constant, l'annuité constant : amortssements cumulés (48'000) / 2ans  = 24'000. "
-            "Le taux d'amortissement est alors annuité (24'000) / val. d'acquisition (800'000) = 0.03 = 3%",)
+            "Le taux d'amortissement est alors annuité (24'000) / val. d'acquisition (800'000) = 0.03 = 3%"),
     "image": "serie_4_balance_soldes.png",
 },
 {
