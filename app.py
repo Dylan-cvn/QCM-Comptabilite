@@ -861,11 +861,27 @@ QUESTIONS = [
             "Charge de 7'800",
             "Aucune réponses",
         ],
+        "answer": 3,
+        "explain": (
+            "Pertes s/créances : Clients (55'000) × 10% = 5'500. Provision pertes s/créances : (Clients sains × 6%) + Cr. douteuses = "
+            "[(55'000 - 5'500) × 6% + 4'500 = 7'470. Δ Provision pertes s/créances : Provision − Provision existante = 7'470 - 3'000 = 4'470. "
+            "Effet sur le compte de résultat N : Pertes s/créances (5'500) ↑ + Provision pertes s/créances (4'470) ↑ = 9'970 de charge."),
+    "image": "serie_4_balance_soldes.png",
+},
+{
+    "q": "L’immeuble est amorti de manière constante. Quel est le taux d’amortissement utilisée ?" 
+         " (résultat arrondi à deux décimales)",
+        "choices": [
+            "3%",
+            "6%",
+            "6.47%",
+            "Aucune réponses",
+        ],
         "answer": 0,
         "explain": (
-            "Variation de stock = 29'700 - 33'000 = -3'300 ∴ Diminution de stock ⇒ charge al. que augmentation de stock ⇒ produit."),
+            "Sachant que ..."),
     "image": "serie_4_balance_soldes.png",
-}
+},
 ]
 
 
