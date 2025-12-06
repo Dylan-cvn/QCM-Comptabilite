@@ -963,7 +963,22 @@ QUESTIONS = [
             "Intérêts (I) = Capital (C) × Taux (T) × Durée (N) = C × T × N = 11'250 ∴ T = I / (C × N) = 11'250 / (1'000'000 × 9/12) = 0.015 = 1.5%"),
     "image": "serie_4_balance_verification.png",
 },
-
+{
+    "q": "Au 31.12.N, la correction de valeur sur créances clients doit s’élever à 5 % du montant des créances résultant des ventes aux clients suisses "
+         "et 10 % du montant des créances résultant des ventes aux clients étrangers. \n "
+         "Quelle écriture doit être comptabilisée au 31.12.N ? ",
+        "choices": [
+            "Corr. de val. s/cr. clients à Perte s/cr. clients pour 2'000",
+            "Perte s/cr. clients à Corr. de val. s/cr. clients pour 2'000",
+            "Corr. de val. s/cr. clients à Perte s/cr. clients pour 5'000",
+            "Perte s/cr. clients à Corr. de val. s/cr. clients pour 5'000",
+        ],
+        "answer": 0,
+        "explain": (
+            "Corr. de val. s/cr. clients suisses : 60'000 × 5% = 3'000 & Corr. de val. s/cr. clients étrangers : 20'000 × 10% = 2'000 ∴ Total : 3'000 + 2'000 = 5'000."
+            "Corr. de val. s/cr. clients : Solde Final (5'000) - Solde initial (7'000) = -2'000 (au débit) ⇒ diminution de la correction (produit)."),
+    "image": "serie_4_balance_verification.png",
+}
     
 ]
 
