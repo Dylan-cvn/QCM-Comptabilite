@@ -822,7 +822,7 @@ QUESTIONS = [
         ],
         "answer": 3,
         "explain": (
-            "Une société qui remplit les conditions du contrôle ordinaire est obligatoirement auditée selon le COet ne peut pas la remplacer par un contrôle restreint, même avec l’accord des actionnaires."), 
+            "Une société qui remplit les conditions du contrôle ordinaire est obligatoirement auditée selon le CO et ne peut pas la remplacer par un contrôle restreint, même avec l’accord des actionnaires."), 
 },
 {
     "q": "A la bourse suisse, quelle norme comptable doit respecter une entreprise cotée sur le marché international ?",
