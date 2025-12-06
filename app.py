@@ -931,7 +931,7 @@ QUESTIONS = [
             "Prêt : 20'000 & taux d'intérêts : 4% ∴ intérêts annuels : 20'000 × 4% = 800. "
             "Intérêts à régulariser uniquement la partie de l’année en cours comprise entre la dernière échéance 15.05.N et le 31.12.N ∴ "
             "15.05.N au 31.12.N ⇒ 7.5 mois al. opération de régularisation : 800 ×  7.5/12 = 500. L'entreprise a gagné 500 d’intérêts non encore encaissés au 31.12.N (PàR)."),
-},
+}
 
     
 ]
