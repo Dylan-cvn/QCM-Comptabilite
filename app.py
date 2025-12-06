@@ -885,7 +885,7 @@ QUESTIONS = [
     "image": "serie_4_balance_soldes.png",
 },
 {
-    "q": "Le matériel et mobilier est amorti de manière dégressive au taux de 25%. " 
+    "q": "Le matériel et mobilier est amorti de manière dégressive au taux de 25%. \n" 
          "Quelle est l’écriture que l’entreprise doit comptabiliser au 31.12.N ?",
         "choices": [
             "Amort. & corr. de val. s/mat.&mob. à Matériel & mobilier pour 1'687.50",
@@ -902,7 +902,7 @@ QUESTIONS = [
     "image": "serie_4_balance_soldes.png",
 },
 {
-    "q": "Le compte véhicule est amorti de manière directe et constante au taux de 25%. " 
+    "q": "Le compte véhicule est amorti de manière directe et constante au taux de 25%. \n" 
          "Quel est le montant de l’amortissement au 31.12.N ?",
         "choices": [
             "1'312.50",
