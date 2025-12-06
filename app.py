@@ -837,6 +837,20 @@ QUESTIONS = [
             "Une entreprise cotée sur un marché international doit appliquer une norme comptable reconnue mondialement, " 
             "ce qui n'est le cas que des IFRS ou US GAAP, alors que Swiss GAAP RPC est limité au marché suisse."),
 }
+{
+    "q": "L’inventaire du stock de marchandises au 31.12.N indique une valeur de CHF 29'700. " 
+         "Quel est l’effet sur le compte de résultat N ?",
+        "choices": [
+            "Charge de 3'300",
+            "Produit de 3'300",
+            "Charge de 29'700",
+            "Produit de 29'700",
+        ],
+        "answer": 0,
+        "explain": (
+            "Variation de stock = 29'700 - 33'000 = -3'300 ∴ Diminution de stock ⇒ charge al. que augmentation de stock ⇒ produit."),
+    "image": "serie_4_balance_soldes.png"
+},
 ]
 
 
