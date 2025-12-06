@@ -931,7 +931,24 @@ QUESTIONS = [
             "Prêt : 20'000 & taux d'intérêts : 4% ∴ intérêts annuels : 20'000 × 4% = 800. "
             "Intérêts à régulariser uniquement la partie de l’année en cours comprise entre la dernière échéance 15.05.N et le 31.12.N ∴ "
             "15.05.N au 31.12.N ⇒ 7.5 mois al. opération de régularisation : 800 ×  7.5/12 = 500. L'entreprise a gagné 500 d’intérêts non encore encaissés au 31.12.N (PàR)."),
-}
+},
+{
+    "q": "Au 31.12.N, à combien s’élève le montant de l’amortissement de l’immeuble locatif acquis au 1er janvier N-3 pour une valeur de 4'000'000 "
+         "amorti de manière constante et directe ? ",
+        "choices": [
+            "60'000",
+            "80'000",
+            "240'000",
+            "Aucunes réponses",
+        ],
+        "answer": 0,
+        "explain": (
+            "Immeuble locatif N-3 : 4'000'000 sachant amortissements constants : valeur d’acquisition (4'000'000) – amortissements cumulés s/immeuble (3'760'000) = 240'000. "
+            "L'immeuble a été amorti de N-3, N-2, N-1 & N ∴ 4 exercices al. Annuités = 240'000/4 = 60′000. "
+            "Le montant de l’amortissement au 31.12.N est de 60'000 "),
+    "image": "serie_4_balance_verification.png",
+},
+
 
     
 ]
