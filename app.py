@@ -850,6 +850,21 @@ QUESTIONS = [
         "explain": (
             "Variation de stock = 29'700 - 33'000 = -3'300 ∴ Diminution de stock ⇒ charge al. que augmentation de stock ⇒ produit."),
     "image": "serie_4_balance_soldes.png",
+},
+{
+    "q": "En raison de la faillite d’un client, 10% des créances résultant de ventes doit être passé en pertes s/créances. " 
+         "La provision pour pertes s/créances doit se monter à 6% du total des créances résultant des ventes & 100% des créances douteuses. "
+         "Quel est l’effet sur le compte de résultat N ? ",
+        "choices": [
+            "Produit de 4'470",
+            "Charge de 7'470",
+            "Charge de 7'800",
+            "Aucune réponses",
+        ],
+        "answer": 0,
+        "explain": (
+            "Variation de stock = 29'700 - 33'000 = -3'300 ∴ Diminution de stock ⇒ charge al. que augmentation de stock ⇒ produit."),
+    "image": "serie_4_balance_soldes.png",
 }
 ]
 
