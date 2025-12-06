@@ -869,7 +869,7 @@ QUESTIONS = [
     "image": "serie_4_balance_soldes.png",
 },
 {
-    "q": "L’immeuble est amorti de manière constante. Quel est le taux d’amortissement utilisée ?" 
+    "q": "L'immeuble est amorti de manière constante. Quel est le taux d'amortissement utilisée ?" 
          " (résultat arrondi à deux décimales)",
         "choices": [
             "3%",
@@ -879,9 +879,61 @@ QUESTIONS = [
         ],
         "answer": 0,
         "explain": (
-            "Sachant que ..."),
+            "Sachant que la val. d'acquisition est de 800'000 (N-2) & Amortissement & corr. de valeur s/Immeuble est de 48'000. "
+            "En amortissement constant, l'annuité constant : amortssements cumulés (48'000) / 2ans  = 24'000. "
+            "Le taux d'amortissement est alors annuité (24'000) / val. d'acquisition (800'000) = 0.03 = 3%",)
     "image": "serie_4_balance_soldes.png",
 },
+{
+    "q": "Le matériel et mobilier est amorti de manière dégressive au taux de 25%. " 
+         "Quelle est l’écriture que l’entreprise doit comptabiliser au 31.12.N ?",
+        "choices": [
+            "Amort. & corr. de val. s/mat.&mob. à Matériel & mobilier pour 1'687.50",
+            "Amortissement à Amort. & corr. de val. s/mat.&mob. pour 1'687.50",
+            "Amortissement à Matériel & mobilier pour 1'687.50 ",
+            "Amortissement à Amort. & corr. de val. s/mat.&mob. pour 4'000",
+        ],
+        "answer": 1,
+        "explain": (
+            "Pour l'amortissement dégressif, on applique le taux dégressif sur la Valeur Comptable Nette (VCN). "
+            "VCN début N : Matériel & mobilier (16'000) - Amort. & corr. de val. s/mat.&mob. (9'250) = 6'750. "
+            "Le montant de l'amortissement net début N : VCN (6'750) × 25% = 1'687.50 ∴ "
+            "En méthode indirecte, on débite une charge d’amortissement et on crédite la correction de valeur. "),
+    "image": "serie_4_balance_soldes.png",
+},
+{
+    "q": "Le compte véhicule est amorti de manière directe et constante au taux de 25%. " 
+         "Quel est le montant de l’amortissement au 31.12.N ?",
+        "choices": [
+            "1'312.50",
+            "2'625",
+            "5'250",
+            "Aucunes réponses",
+        ],
+        "answer": 0,
+        "explain": (
+            "Véhicule au 31.12.N avant amortissement : 5'250 & taux constant sur la Valeur Comptable Nette (VCN) : 25% ∴ "
+            "Amortissement N : Véhicule (5'250) × 25% = "
+            "Le montant de l'amortissement net début N : VCN (6'750) × 25% = 1'312.50."),
+    "image": "serie_4_balance_soldes.png",
+},
+{
+    "q": "15.05.N-2, l’entreprise a accordé un prêt de 20'000 à son partenaire commercial au taux de 4%. " 
+         "Quelle est l’opération de régularisation qui doit être comptabilisée au 31.12.N ?",
+        "choices": [
+            "Charge payée d'avance : 342.50",
+            "Produit reçu d’avance : 342.50",
+            "Produit à recevoir : 500",
+            "Aucunes réponses",
+        ],
+        "answer": 2,
+        "explain": (
+            "Prêt : 20'000 & taux d'intérêts : 4% ∴ intérêts annuels : 20'000 × 4% = 800. "
+            "Intérêts à régulariser uniquement la partie de l’année en cours comprise entre la dernière échéance 15.05.N et le 31.12.N ∴ "
+            "15.05.N au 31.12.N ⇒ 7.5 mois al. opération de régularisation : 800 ×  7.5/12 = 500. L'entreprise a gagné 500 d’intérêts non encore encaissés au 31.12.N (PàR)."),
+},
+
+    
 ]
 
 
