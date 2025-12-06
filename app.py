@@ -948,7 +948,21 @@ QUESTIONS = [
             "Le montant de l’amortissement au 31.12.N est de 60'000 "),
     "image": "serie_4_balance_verification.png",
 },
-
+{
+    "q": "Sachant que les intérêts courus sur l’hypothèque s’élèvent à CHF 11'250 au 31.12.N, quel est le taux de l’hypothèque ? \n "
+         "(résultat arrondi à 2 décimales) ",
+        "choices": [
+            "1.13%",
+            "1.50%",
+            "4.50%",
+            "Aucunes réponses",
+        ],
+        "answer": 1,
+        "explain": (
+            "Hypothèque : 1'000'000 sachant Intérêts courus au 31.12.N pour la période du 31.03.N au 31.12.N ⇒ 9 mois al. "
+            "Intérêts (I) = Capital (C) × Taux (T) × Durée (N) = C × T × N = 11'250 ∴ T = I / (C × N) = 11'250 / (1'000'000 × 9/12) = 0.015 = 1.5%"),
+    "image": "serie_4_balance_verification.png",
+},
 
     
 ]
