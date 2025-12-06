@@ -849,8 +849,8 @@ QUESTIONS = [
         "answer": 0,
         "explain": (
             "Variation de stock = 29'700 - 33'000 = -3'300 ∴ Diminution de stock ⇒ charge al. que augmentation de stock ⇒ produit."),
-    "image": "serie_4_balance_soldes.png"
-},
+    "image": "serie_4_balance_soldes.png",
+}
 ]
 
 
