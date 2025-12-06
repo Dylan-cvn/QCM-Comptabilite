@@ -829,14 +829,14 @@ QUESTIONS = [
         "choices": [
             "Swiss Gaap ou IFRS",
             "Swiss Gaap ou US Gaap",
-            "US Gaap ou IFRS ",
+            "US Gaap ou IFRS",
             "Swiss Gaap RPC",
         ],
         "answer": 2,
         "explain": (
             "Une entreprise cotée sur un marché international doit appliquer une norme comptable reconnue mondialement, " 
             "ce qui n'est le cas que des IFRS ou US GAAP, alors que Swiss GAAP RPC est limité au marché suisse."),
-}
+},
 {
     "q": "L’inventaire du stock de marchandises au 31.12.N indique une valeur de CHF 29'700. " 
          "Quel est l’effet sur le compte de résultat N ?",
