@@ -978,6 +978,20 @@ QUESTIONS = [
             "Corr. de val. s/cr. clients suisses : 60'000 × 5% = 3'000 & Corr. de val. s/cr. clients étrangers : 20'000 × 10% = 2'000 ∴ Total : 3'000 + 2'000 = 5'000."
             "Corr. de val. s/cr. clients : Solde Final (5'000) - Solde initial (7'000) = -2'000 (au débit) ⇒ diminution de la correction (produit)."),
     "image": "serie_4_balance_verification.png",
+},
+{
+    "q": "Quelle est l’écriture de comptabilisation de l’amortissement dégressif de 20% des véhicules au 31.12.N ?",
+        "choices": [
+            "Amortissements à Véhicules pour 6'000",
+            "Amortissements à Corr. de val. s/véhicules pour 13'000",
+            "Corr. de val. s/véhicules... à Perte s/cr. clients pour 5'000",
+            "Perte s/cr. clients à Corr. de val. s/cr. clients pour 5'000",
+        ],
+        "answer": 0,
+        "explain": (
+            "Corr. de val. s/cr. clients suisses : 60'000 × 5% = 3'000 & Corr. de val. s/cr. clients étrangers : 20'000 × 10% = 2'000 ∴ Total : 3'000 + 2'000 = 5'000."
+            "Corr. de val. s/cr. clients : Solde Final (5'000) - Solde initial (7'000) = -2'000 (au débit) ⇒ diminution de la correction (produit)."),
+    "image": "serie_4_balance_verification.png",
 }
     
 ]
