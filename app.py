@@ -989,12 +989,53 @@ QUESTIONS = [
         ],
         "answer": 3,
         "explain": (
-            "..."
-            "Corr. de val. s/cr. clients : Solde Final (5'000) - Solde initial (7'000) = -2'000 (au débit) ⇒ diminution de la correction (produit)."),
+            "Véhicule au 31.12.N avant amortissement (VCN) : Véhicules (65'000) - Amort. & corr. de val. s/véhicules (35'000) = 30'000 "
+            "Taux dégressif : 20% que l'on applique à la VCN ∴ Amortissement N : VCN (30'000) × 20% = 6'000. Sachant qu'il existe un compte Amort. & corr. de val. s/véhicules, "
+            "on se en méthode indirecte. L’écriture d’amortissement devrait être Amortissements à Amort. & corr. de val. s/véhicules pour 6'000"),
     "image": "serie_4_balance_verification.png",
 },
-
-    
+{
+    "q": "L'inventaire final du stock de marchandises au 31.12.N est 19'200. En tenant compte de cette information, quelle est l’incidence de la variation du stock sur l'EBITDA ? ",
+        "choices": [
+            "EBITDA ↑ de 2'400",
+            "EBITDA ↓ de 2'400",
+            "EBITDA ↑ de 19'200",
+            "EBITDA ↓ de 19'200",
+        ],
+        "answer": 0,
+        "explain": (
+            "Var. de stock : SF (19'200) - SI (16'800) = 2'400 d'augmentation comptabilisé en prod. d'exploitation ∴ l'EBITDA ↑"),
+    "image": "serie_4_balance_verification.png",
+},
+{
+    "q": "Au 31.12.N, quelle écriture doit être comptabilisée pour tenir compte de l’intérêt couru sur les obligations Brest SA ? ",
+        "choices": [
+            "Prod. fin. à Produit à recevoir pour 50",
+            "Produit à recevoir à Prod. fin. pour 150",
+            "Prod. fin. à Produit à recevoir pour 155.25",
+            "Produit à recevoir à Prod. fin. pour 155.25",
+        ],
+        "answer": 1,
+        "explain": (
+            "L’intérêt couru sur les obligations Brest SA est un prod. fin. car intérêt gagné, il n'est pas encore encaissé au 31.12 ∴ PàR."
+            "Calcul intérêt couru : I = C × T × N sachant que C = 20'000, T = 1% & N : du 31.03.N au 31.12.N ⇒ 9 mois ∴ "
+            "I = 20'000 × 1% × 9/12 = 150"),
+    "image": "serie_4_balance_verification.png",
+},
+{
+    "q": "Au 31.12.N, le comptable a enregistré l’écriture suivante : Corr. de val. s/créances à Perte s/créances pour 2'000. \n"
+         "A quelle opération comptable correspond cette écriture ?",
+        "choices": [
+            "Une diminution de 2'000 du compte Corr. de val. s/créances.",
+            "Une augmentation de 2'000 du compte Perte s/créances.",
+            "La perte d’une créance de 2'000 suite à la faillite d’un client.",
+            "Une augmentation de 2'000 du compte Corr. de val. s/créances.",
+        ],
+        "answer": 0,
+        "explain": (
+            "Débit : Corr. de val. s/créances qui diminue de 2'000 (provision) & "
+            "Crédit : Perte s/créances qui diminue aussi de 2'000 (charge) ∴ c'est une diminution de 2'000 du compte Corr. de val. s/créances."),
+}   
 ]
 
 
