@@ -908,7 +908,7 @@ QUESTIONS = [
             "1'312.50",
             "2'625",
             "5'250",
-            "Aucunes réponses",
+            "Aucune réponses",
         ],
         "answer": 0,
         "explain": (
@@ -924,7 +924,7 @@ QUESTIONS = [
             "Charge payée d'avance : 342.50",
             "Produit reçu d’avance : 342.50",
             "Produit à recevoir : 500",
-            "Aucunes réponses",
+            "Aucune réponses",
         ],
         "answer": 2,
         "explain": (
@@ -939,7 +939,7 @@ QUESTIONS = [
             "60'000",
             "80'000",
             "240'000",
-            "Aucunes réponses",
+            "Aucune réponses",
         ],
         "answer": 0,
         "explain": (
@@ -955,7 +955,7 @@ QUESTIONS = [
             "1.13%",
             "1.50%",
             "4.50%",
-            "Aucunes réponses",
+            "Aucune réponses",
         ],
         "answer": 1,
         "explain": (
@@ -983,16 +983,17 @@ QUESTIONS = [
     "q": "Quelle est l’écriture de comptabilisation de l’amortissement dégressif de 20% des véhicules au 31.12.N ?",
         "choices": [
             "Amortissements à Véhicules pour 6'000",
-            "Amortissements à Corr. de val. s/véhicules pour 13'000",
-            "Corr. de val. s/véhicules... à Perte s/cr. clients pour 5'000",
-            "Perte s/cr. clients à Corr. de val. s/cr. clients pour 5'000",
+            "Amort. & corr. de val. s/véhicules à Véhicules pour 6'000",
+            "Amortissements à Amort. & corr. de val. s/véhicules pour 13'000",
+            "Aucune réponses",
         ],
-        "answer": 0,
+        "answer": 3,
         "explain": (
-            "Corr. de val. s/cr. clients suisses : 60'000 × 5% = 3'000 & Corr. de val. s/cr. clients étrangers : 20'000 × 10% = 2'000 ∴ Total : 3'000 + 2'000 = 5'000."
+            "..."
             "Corr. de val. s/cr. clients : Solde Final (5'000) - Solde initial (7'000) = -2'000 (au débit) ⇒ diminution de la correction (produit)."),
     "image": "serie_4_balance_verification.png",
-}
+},
+
     
 ]
 
