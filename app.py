@@ -1035,7 +1035,36 @@ QUESTIONS = [
         "explain": (
             "Débit : Corr. de val. s/créances qui diminue de 2'000 (provision) & "
             "Crédit : Perte s/créances qui diminue aussi de 2'000 (charge) ∴ c'est une diminution de 2'000 du compte Corr. de val. s/créances."),
-}   
+},
+{
+    "q": "Le 01.01.N, la société X a acquis du mobilier pour une valeur 30'000. Il a été amorti selon la méthode de l’amortissement direct constant à un taux de 10%. \n"
+         "Quel est le montant du compte « Amort.&Corr. de val. s/mobilier » au 01.01.N+3 ? ",
+        "choices": [
+            "0",
+            "3'000",
+            "6'000",
+            "9'000",
+        ],
+        "answer": 3,
+        "explain": (
+            "On nous dit que le mobilier est amorti selon la méthode constante à 10% de la VCN. "
+            "Amortissement annuel = 30'000 × 10% = 3'000 & on a comptabilisé 3 exercices complets : 3'000 × 3 = 9'000."), 
+},
+{
+    "q": "L'entreprise Y a payé le 30.04.N une prime annuelle pour son assurance incendie et dégâts d’eau. "
+         "Au 31.12.N, le comptable a enregistré correctement l’écriture de régularisation suivante : Charge payée d'avance à Assurance pour 2'400. \n"
+         "Quel est le montant annuel de la prime d'assurance ?",
+        "choices": [
+            "300",
+            "600",
+            "3'600",
+            "7'200",
+        ],
+        "answer": 3,
+        "explain": (
+            "Prime payée le 30.04.N couvre 12 mois jusqu’au 30.04.N+1. Au 31.12.N, CPA enregistrée est de 2'400. Du 31.12.N au 30.04.N+1, il reste : "
+            "Amortissement annuel = 30'000 × 10% = 3'000 & on a comptabilisé 3 exercices complets : 3'000 × 3 = 9'000."),
+}
 ]
 
 
