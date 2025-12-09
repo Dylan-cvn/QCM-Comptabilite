@@ -1134,7 +1134,7 @@ def log_answer(user_name: str, q_index: int, correct: bool, selected: int) -> No
 # Sidebar
 with st.sidebar:
     st.header("⚙️ Paramètres")
-    user_name = st.text_input("Votre nom (optionnel)", "")
+    user_name = st.text_input("Votre nom (obligatoire)", "")
     shuffle_q = st.checkbox("Mélanger les questions (au démarrage)", value=True)
     show_explain = st.checkbox("Afficher l'explication après validation", value=True)
     st.caption("Partagez simplement l'URL publique de cette page.")
@@ -1171,6 +1171,11 @@ if ("init" not in st.session_state) or (st.session_state.get("n_questions") != l
 
 st.title("🎈Révision examen : Comptabilité financière I")
 st.caption("Mode **apprentissage** : répéter les erreurs jusqu'à maîtriser le sujet.")
+# Vérification du nom obligatoire
+if not user_name.strip():
+    st.warning("⚠️ Veuillez entrer votre nom dans la barre latérale pour commencer le QCM.")
+    st.info("👈 Ouvrez le menu latéral et remplissez le champ 'Votre nom'")
+    st.stop()  # Arrête l'exécution du reste du code
 
 
 def _choose_next(exclude_idx=None):
@@ -1438,7 +1443,7 @@ else:
             st.download_button(
                 label="📥 Télécharger toutes les réponses (CSV)",
                 data=csv_all,
-                file_name="results_qcm_microeconomie.csv",
+                file_name="results_qcm_comptabilite.csv",
                 mime="text/csv",
             )
 
