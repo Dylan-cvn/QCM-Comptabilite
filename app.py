@@ -1062,8 +1062,39 @@ QUESTIONS = [
         ],
         "answer": 3,
         "explain": (
-            "Prime payée le 30.04.N couvre 12 mois jusqu’au 30.04.N+1. Au 31.12.N, CPA enregistrée est de 2'400. Du 31.12.N au 30.04.N+1, il reste : "
-            "Amortissement annuel = 30'000 × 10% = 3'000 & on a comptabilisé 3 exercices complets : 3'000 × 3 = 9'000."),
+            "Prime d'assurance payée le 30.04.N couvre 12 mois jusqu’au 30.04.N+1. Au 31.12.N, CPA enregistrée est de 2'400 ⇒ 4 mois d'assurance à payer car "
+            "on a déjà cosommé du 30.04.N au 31.12.N sur 30.04.N+1 ⇒ 8 mois sur 12 consommés ∴ Coût mensuel de la prime : 2'400/4 = 600 ∴ "
+            "Coût annuel de la prime : 600 × 12 = 7'200"),
+},
+{
+    "q": "Début 01.N, Dupont SA a acquis des véhicules pour une valeur de 80'000. Leur valeur résiduelle avant l’enregistrement de l’amortissement constant au 31.12.N+2 s’élève à CHF 48'000. \n"
+         "Quelle écriture le comptable de Dupont SA doit-il enregistrer pour tenir compte de l’amortissement indirect de cet actif immobilisé ? ",
+        "choices": [
+            "Amortissement à Véhicules pour 32'000",
+            "Amortissement à Amort.&Corr. de val. s/véhicules pour 16'000",
+            "Amortissement à Amort.&Corr. de val. s/véhicules pour 32'000",
+            "Amortissement à Véhicule pour 16'000",
+        ],
+        "answer": 1,
+        "explain": (
+            "Val. d'acquisition véhicule à N : 80'000 & Val. résiduelle véhicule à N+2 : 48'000 ∴ Amortissement cumulé de 2 ans = 80'000 - 48'000 = 32'000 al. amortissement annuel constant : 32'000/2 = 16'000. "
+            "En amortissement indirect, on débite le compte charge : Amortissement & on crédite le compte correcteur d'actif : Amort.&Corr. de val. s/véhicules."),
+},
+{
+    "q": "La Corr. de val. s/clients au 31.12.N s'élevait à 50'000. Au 31.12.N+1, la Corr. de val. s/clients doit augmenter de 10'000. "
+         "Après la clôture des comptes, la comptable s’aperçoit que cette var. de correction de valeur n'a pas été comptabilisé. \n "
+         " Quelle est l’incidence de cette variation sur le résultat EBIT ? ",
+        "choices": [
+            "EBIT ↑ de 10'000",
+            "EBIT ↓ de 10'000",
+            "EBIT ↑ de 60'000",
+            "EBIT n'est pas modifié",
+        ],
+        "answer": 1,
+        "explain": (
+            "La Corr. de val. s/clients ⇒ Ducroire : Charge si ↑ (Perte s/créance) mais un Produit si ↓ (Corr. de val.). "
+            "Dans notre cas, une ↑ 10'000  aurait dû être comptabilisée en Pertes s/créance mais cette Charge n’a pas été comptabilisée, le résultat EBIT a été artificiellement trop élevé de 10'000 ∴ "
+            "L’incidence correcte est EBIT ↓ de 10'000 car si l’écriture avait été passée, l’EBIT aurait diminué de ce montant"),
 }
 ]
 
