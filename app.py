@@ -1156,20 +1156,95 @@ QUESTIONS = [
     "image": "fiche_salaire.png",
 },
 {
-    "q": "Sur la base du décompte de salaire présenté, quel est le montant minimum l’employeur doit-il prendre en charge pour la cotisation au deuxième pilier (LPP) ?" 
-    "la part employé et employeur) ?",
+    "q": "Sur la base du décompte de salaire présenté, quel serait le montant de la cotisation pour l’assurance chômage (AC) "
+    "à la charge de l’employeur si le salaire brut était augmenté à 6'200 ?",
         "choices": [
-            "360",
-            "720",
-            "Aucune part minimale à charge de l’employeur",
+            "66",
+            "68.20",
+            "132",
+            "136.40",
+        ],
+        "answer": 1,
+        "explain": (
+            "Pour AC, on sait que le taux total = 2.20% & la part employé 1.10% al. la part employeur 1.10% (Car partage la moitié du taux total). "
+            "Si le salaire brute est de 6'200 al. AC part employeur : 6'200 × 1.10% = 68.20."),
+    "image": "fiche_salaire.png",
+},
+{
+    "q": "Sur la base du décompte de salaire présenté, pour quelle raison aucune cotisation pour l’assurance accidents professionnels n’est-elle prélevée ?",
+        "choices": [
+            "Car le salaire annuel ne dépasse pas CHF 22'680",
+            "Car l’employeur a oublié de la prendre en compte",
+            "Car la cotisation est à la charge de l’employeur",
+            "Car l’employée réalise un travail administratif dans un bureau et la cotisation n’est pas obligatoire pour ce domaine d’activité",
+        ],
+        "answer": 2,
+        "explain": (
+            "La prime accidents professionnels (AP) est entièrement payée par l’employeur, donc elle n’est pas prélevée sur le salaire de l’employé. "
+            "Cependant, l'assurance accidents non professionnels (AANP) est entièrement payée par l'employé étant dans ce fichier de 78.-"),
+    "image": "fiche_salaire.png",
+},
+{
+    "q": "Sur la base du décompte de salaire présenté, pour quelle raison aucune cotisation pour le 3e pilier A n’est-elle prélevée ?",
+        "choices": [
+            "Car le salaire annuel ne dépasse pas CHF 22'680",
+            "Car l’employeur a oublié de la prendre en compte",
+            "Car la cotisation est à la charge de l’employeur",
+            "Car le 3ème pilier A est facultatif et à charge de l’employé",
+        ],
+        "answer": 3,
+        "explain": (
+            "Le 3e pilier A n’est pas une assurance sociale obligatoire comme AVS/AI/APG ou AC. C’est une épargne retraite volontaire."),
+    "image": "fiche_salaire.png",
+},
+{
+    "q": "Un employé s’interroge sur sa retraite et se demande quelle assurance sociale lui permettra d'augmenter ses revenus à l'âge de la retraite ?",
+        "choices": [
+            "L'AVS car elle lui assurera une rente équivalente à son dernier salaire.",
+            "La LPP car elle lui assurera une rente fixe identique à celle de tous les salariés.",
+            "L'APG car elle lui assurera une part plus élevée de son dernier salaire.",
             "Aucune réponses",
         ],
-        "answer": 0,
+        "answer": 3,
         "explain": (
-            "Pour le 2e pilier (LPP), l’employeur doit payer au minimum 50% de la cotisation totale. "
-            "Si la part employé est de 360, al. Total LPP : 360 + 360 = 720 ∴ Costiation LPP part employeur : 720 × 50% = 360"),
-    "image": "fiche_salaire.png",
-}
+            "Premièrement, l'AVS (1er pilier) ne garantit pas une rente équivalente au dernier salaire ; elle assure un minimum vital (rente plafonnée). "
+            "Deuxièmement, la LPP (2e pilier) ne donne pas une rente fixe identique pour tous ; elle dépend de l’avoir vieillesse accumulé (cotisations + intérêts). "
+            "Pour finir, l'assurance perte de gain couvre surtout des situations comme service, maternité, etc., pas la retraite."),
+},
+{
+    "q": "Si l'employée habite en France, quelle part d’impôt à la source serait à la charge de l'employeur ?",
+        "choices": [
+            "La part dépend de la situation personnelle de l'employé (enfants, mariage).",
+            "L'impôt à la source n’est pas à la charge de l'employeur.",
+            "L'intégralité de l’impôt à la source est à la charge de l'employeur.",
+            "Aucune réponses",
+        ],
+        "answer": 1,
+        "explain": (
+            "En France, le prélèvement à la source (PAS) est : "
+            "un impôt dû par l’employé prélevé sur son salaire et simplement versé par l’employeur à l’État (rôle d’intermédiaire). "
+            "donc l'employeur ne “paye” pas l'impôt : il le retient sur le net de l'employé."),
+},
+{
+    "q": "Si l'employée habite en France, quelle part d’impôt à la source serait à la charge de l'employeur ?",
+        "choices": [
+            "La part dépend de la situation personnelle de l'employé (enfants, mariage).",
+            "L'impôt à la source n’est pas à la charge de l'employeur.",
+            "L'intégralité de l’impôt à la source est à la charge de l'employeur.",
+            "Aucune réponses",
+        ],
+        "answer": 1,
+        "explain": (
+            "En France, le prélèvement à la source (PAS) est : "
+            "un impôt dû par l’employé prélevé sur son salaire et simplement versé par l’employeur à l’État (rôle d’intermédiaire). "
+            "donc l'employeur ne “paye” pas l'impôt : il le retient sur le net de l'employé."),
+},
+    
+
+
+
+
+
 
 ]
 
