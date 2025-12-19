@@ -1108,22 +1108,9 @@ QUESTIONS = [
         "answer": 3,
         "explain": (
             "Au bilan en “manière directe”, on présente : VCN = Valeur d’acquisition − Amortissements cumulés sachant que "
-            "Valeur d’acquisition au 31.12.N = 1'400'000 + 500'000 - 0 = 1'900'000 & Amortissements cumulés au 31.12.N = 700'000 + 350'000 - 0 = 1'050'000 ∴ 
+            "Valeur d’acquisition au 31.12.N = 1'400'000 + 500'000 - 0 = 1'900'000 & Amortissements cumulés au 31.12.N = 700'000 + 350'000 - 0 = 1'050'000 ∴" 
             "VCN = 1'900'000 - 1'050'000 = 850'000"),
     "image": "tableau_immobilisations.png",
-},
-{
-    "q": "Sur la base du décompte de salaire présenté, quelle est l’écriture de comptabilisation du salaire et des charges sociales de l’employé ?",
-        "choices": [
-            "Salaires (6'000) à Cha. sociales (877.90) et Banque (5'122.10)",
-            "Salaires (6'000) et Dettes à c-t (877.90) à Banque (6'877.90)",
-            "Salaires (6'000) et Cha. sociales (877.90) à Banque (6'877.90)",
-            "Salaires (5'122.10) et Cha. sociales (877.90) à Banque (6'000)",
-        ],
-        "answer": 0,
-        "explain": (
-            "Salaire brut = 6'000 & total des déductions (Cha. social des employés) = 877.90 ∴ Salaire net (Banque) = 6'000 - 877.90 = 5'122.10"),
-    "image": "fiche_salaire.png",
 },
 {
     "q": "Sur la base du décompte de salaire présenté, quelle est l’écriture de comptabilisation du salaire et des charges sociales de l’employé ?",
