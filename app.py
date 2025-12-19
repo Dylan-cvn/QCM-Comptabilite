@@ -1237,15 +1237,22 @@ QUESTIONS = [
         "explain": (
             "En France, le prélèvement à la source (PAS) est : "
             "un impôt dû par l’employé prélevé sur son salaire et simplement versé par l’employeur à l’État (rôle d’intermédiaire). "
-            "donc l'employeur ne “paye” pas l'impôt : il le retient sur le net de l'employé."),
+            "donc l'employeur ne paye pas l'impôt : il le retient sur le net de l'employé."),
 },
-    
-
-
-
-
-
-
+{
+    "q": "Si l'employée habite en France, quelle part d’impôt à la source serait à la charge de l'employeur ?",
+        "choices": [
+            "La part dépend de la situation personnelle de l'employé (enfants, mariage).",
+            "L'impôt à la source n’est pas à la charge de l'employeur.",
+            "L'intégralité de l’impôt à la source est à la charge de l'employeur.",
+            "Aucune réponses",
+        ],
+        "answer": 1,
+        "explain": (
+            "En France, le prélèvement à la source (PAS) est : "
+            "un impôt dû par l’employé prélevé sur son salaire et simplement versé par l’employeur à l’État (rôle d’intermédiaire). "
+            "donc l'employeur ne paye pas l'impôt : il le retient sur le net de l'employé."),
+},
 ]
 
 
