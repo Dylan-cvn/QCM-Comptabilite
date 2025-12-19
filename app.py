@@ -1083,7 +1083,7 @@ QUESTIONS = [
 {
     "q": "La Corr. de val. s/clients au 31.12.N s'élevait à 50'000. Au 31.12.N+1, la Corr. de val. s/clients doit augmenter de 10'000. "
          "Après la clôture des comptes, la comptable s’aperçoit que cette var. de correction de valeur n'a pas été comptabilisé. \n "
-         " Quelle est l’incidence de cette variation sur le résultat EBIT ? ",
+         "Quelle est l’incidence de cette variation sur le résultat EBIT ? ",
         "choices": [
             "EBIT ↑ de 10'000",
             "EBIT ↓ de 10'000",
@@ -1095,7 +1095,95 @@ QUESTIONS = [
             "La Corr. de val. s/clients ⇒ Ducroire : Charge si ↑ (Perte s/créance) mais un Produit si ↓ (Corr. de val.). "
             "Dans notre cas, une ↑ 10'000  aurait dû être comptabilisée en Pertes s/créance mais cette Charge n’a pas été comptabilisée, le résultat EBIT a été artificiellement trop élevé de 10'000 ∴ "
             "L’incidence correcte est EBIT ↓ de 10'000 car si l’écriture avait été passée, l’EBIT aurait diminué de ce montant"),
+},
+{
+    "q": "Dans son rapport annuel au 31.12.N, Ouspa SA présente la note ci-dessous pour détailler ses actifs immobilisés : \n"
+         "A combien s’élève le montant des immobilisations incorporelles présentées selon la manière directe dans le bilan au 31.12.N ?  ",
+        "choices": [
+            "1'050'000",
+            "1'900'000",
+            "12'050'000",
+            "Aucune réponses",
+        ],
+        "answer": 3,
+        "explain": (
+            "Au bilan en “manière directe”, on présente : VCN = Valeur d’acquisition − Amortissements cumulés sachant que "
+            "Valeur d’acquisition au 31.12.N = 1'400'000 + 500'000 - 0 = 1'900'000 & Amortissements cumulés au 31.12.N = 700'000 + 350'000 - 0 = 1'050'000 ∴ 
+            "VCN = 1'900'000 - 1'050'000 = 850'000"),
+    "image": "tableau_immobilisations.png",
+},
+{
+    "q": "Sur la base du décompte de salaire présenté, quelle est l’écriture de comptabilisation du salaire et des charges sociales de l’employé ?",
+        "choices": [
+            "Salaires (6'000) à Cha. sociales (877.90) et Banque (5'122.10)",
+            "Salaires (6'000) et Dettes à c-t (877.90) à Banque (6'877.90)",
+            "Salaires (6'000) et Cha. sociales (877.90) à Banque (6'877.90)",
+            "Salaires (5'122.10) et Cha. sociales (877.90) à Banque (6'000)",
+        ],
+        "answer": 0,
+        "explain": (
+            "Salaire brut = 6'000 & total des déductions (Cha. social des employés) = 877.90 ∴ Salaire net (Banque) = 6'000 - 877.90 = 5'122.10"),
+    "image": "fiche_salaire.png",
+},
+{
+    "q": "Sur la base du décompte de salaire présenté, quelle est l’écriture de comptabilisation du salaire et des charges sociales de l’employé ?",
+        "choices": [
+            "Salaires (6'000) à Cha. sociales (877.90) et Banque (5'122.10)",
+            "Salaires (6'000) et Dettes à c-t (877.90) à Banque (6'877.90)",
+            "Salaires (6'000) et Cha. sociales (877.90) à Banque (6'877.90)",
+            "Salaires (5'122.10) et Cha. sociales (877.90) à Banque (6'000)",
+        ],
+        "answer": 0,
+        "explain": (
+            "Salaire brut = 6'000 & total des déductions (Cha. social des employés) = 877.90 ∴ Salaire net (Banque) = 6'000 - 877.90 = 5'122.10"),
+    "image": "fiche_salaire.png",
+},
+{
+    "q": "Sur la base du décompte de salaire présenté, quel est le montant total que l’employeur devra verser à la caisse AVS/AI/APG (montant total incluant " 
+    "la part employé et employeur) ?",
+        "choices": [
+            "318",
+            "636",
+            "878.60",
+            "Aucune réponses",
+        ],
+        "answer": 1,
+        "explain": (
+            "AVS/AI/APG en part employeur 10.60% et part employé 5.30% ∴ Montant retenu part employeur : 6'000 × 10.60% = 636 & "
+            "Montant retenu part employé : 6'000 × 5.30% = 318 al. total à verser 318 + 318 = 636"),
+    "image": "fiche_salaire.png",
+},
+{
+    "q": "Sur la base du décompte de salaire présenté, quel est le montant minimum l’employeur doit-il prendre en charge pour la cotisation au deuxième pilier (LPP) ?" 
+    "la part employé et employeur) ?",
+        "choices": [
+            "360",
+            "720",
+            "Aucune part minimale à charge de l’employeur",
+            "Aucune réponses",
+        ],
+        "answer": 0,
+        "explain": (
+            "Pour le 2e pilier (LPP), l’employeur doit payer au minimum 50% de la cotisation totale. "
+            "Si la part employé est de 360, al. Total LPP : 360 + 360 = 720 ∴ Costiation LPP part employeur : 720 × 50% = 360"),
+    "image": "fiche_salaire.png",
+},
+{
+    "q": "Sur la base du décompte de salaire présenté, quel est le montant minimum l’employeur doit-il prendre en charge pour la cotisation au deuxième pilier (LPP) ?" 
+    "la part employé et employeur) ?",
+        "choices": [
+            "360",
+            "720",
+            "Aucune part minimale à charge de l’employeur",
+            "Aucune réponses",
+        ],
+        "answer": 0,
+        "explain": (
+            "Pour le 2e pilier (LPP), l’employeur doit payer au minimum 50% de la cotisation totale. "
+            "Si la part employé est de 360, al. Total LPP : 360 + 360 = 720 ∴ Costiation LPP part employeur : 720 × 50% = 360"),
+    "image": "fiche_salaire.png",
 }
+
 ]
 
 
