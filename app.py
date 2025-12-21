@@ -1308,7 +1308,7 @@ QUESTIONS = [
     "présente de nombreux avantages. D’une part il permet de préserver les liquidités des entreprises grâce à un apport initial minimum et au fait de ne pas avoir à s’acquitter du "
     "montant de la TVA lors de la prise en main des équipements. D’autre part, il permet d’améliorer la flexibilité financière avec la possibilité d’augmenter son apport initial ou "
     "de comptabiliser hors bilan, les engagements de leasing ». \n"
-    "Quelles seraient conséquences sur le bilan de Cataro SA de comptabiliser le leasing hors bilan (leasing d’exploitation) ?"
+    "Quelles seraient conséquences sur le bilan de Cataro SA de comptabiliser le leasing hors bilan (leasing d’exploitation) ?",
         "choices": [
             "L’actif immobilisé figure au bilan et le montant de la dette de leasing est indiqué dans l’annexe des états financiers.",
             "L’actif immobilisé ne figure pas au bilan et le montant de la dette de leasing est comptabilisé dans les capitaux étrangers.",
