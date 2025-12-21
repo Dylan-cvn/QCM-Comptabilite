@@ -1227,7 +1227,7 @@ QUESTIONS = [
 },
 {
     "q": "Une employée ne perçoit pas d’allocations familiales car elle n’a pas d’enfants. Dans cette situation, l'employeur doit-il cotiser aux allocations familiales, "
-    "qui s’élèvent à 2.45% du salaire brut ?"
+    "qui s’élèvent à 2.45% du salaire brut ?",
         "choices": [
             "Non car la cotisation est à charge de l’employé.",
             "Non car la cotisation est à charge de l’Etat.",
