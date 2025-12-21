@@ -1226,33 +1226,104 @@ QUESTIONS = [
             "donc l'employeur ne “paye” pas l'impôt : il le retient sur le net de l'employé."),
 },
 {
-    "q": "Si l'employée habite en France, quelle part d’impôt à la source serait à la charge de l'employeur ?",
+    "q": "Une employée ne perçoit pas d’allocations familiales car elle n’a pas d’enfants. Dans cette situation, l'employeur doit-il cotiser aux allocations familiales, "
+    "qui s’élèvent à 2.45% du salaire brut ?"
         "choices": [
-            "La part dépend de la situation personnelle de l'employé (enfants, mariage).",
-            "L'impôt à la source n’est pas à la charge de l'employeur.",
-            "L'intégralité de l’impôt à la source est à la charge de l'employeur.",
-            "Aucune réponses",
+            "Non car la cotisation est à charge de l’employé.",
+            "Non car la cotisation est à charge de l’Etat.",
+            "Oui l’employeur doit prendre en charge 100% des cotisations.",
+            "Oui l’employeur doit cotiser de manière paritaire",
         ],
-        "answer": 1,
+        "answer": 2,
         "explain": (
-            "En France, le prélèvement à la source (PAS) est : "
-            "un impôt dû par l’employé prélevé sur son salaire et simplement versé par l’employeur à l’État (rôle d’intermédiaire). "
-            "donc l'employeur ne paye pas l'impôt : il le retient sur le net de l'employé."),
+            "Les allocations familiales sont une charge sociale employeur : l’employeur cotise même si l’employée n’a pas d’enfants. "
+            "Le fait qu’elle ne touche pas d’allocations ne change rien : la cotisation sert à financer le système pour l’ensemble."),
 },
 {
-    "q": "Si l'employée habite en France, quelle part d’impôt à la source serait à la charge de l'employeur ?",
+    "q": "Un jeune étudiant de 21 ans travaille à 20% pour un salaire annuel total de 15'000 à côté de ses études. Est-il soumis à la cotisation AVS ?",
         "choices": [
-            "La part dépend de la situation personnelle de l'employé (enfants, mariage).",
-            "L'impôt à la source n’est pas à la charge de l'employeur.",
-            "L'intégralité de l’impôt à la source est à la charge de l'employeur.",
+            "Il n’est pas soumis à la cotisation car il n’a pas 25 ans.",
+            "Il n’est pas soumis à la cotisation AVS car son salaire annuel n’atteint pas le montant de 22'680.",
+            "Il n’est pas soumis à la cotisation AVS car son taux d’activité est de 20%",
             "Aucune réponses",
+        ],
+        "answer": 3,
+        "explain": (
+            "En Suisse, la cotisation AVS/AI/APG sur le salaire est obligatoire dès le 1er janvier qui suit les 17 ans (pour une activité lucrative salariée). "
+            "À 21 ans, il est donc soumis à l’AVS, même à 20%, et même avec CHF 15’000/an. "
+            "De plus, 22'680 est un seuil lié surtout au 2e pilier (LPP), pas à l’AVS. "),
+},
+{
+    "q": "Un jeune étudiant a obtenu un contrat à durée déterminée d’une année pour un taux d’activité de 20% pour un salaire annuel total de 15'000 à côté de ses études. "
+    "Est-il soumis à la cotisation LPP ?",
+        "choices": [
+            "Il n’est pas soumis à la cotisation car il s’agit d’un contrat à durée déterminée.",
+            "Il n’est pas soumis à la cotisation car son taux d’activité est de 20%.",
+            "Il n’est pas soumis à la cotisation car son salaire annuel n’atteint pas le montant de  22'680.",
+            "Aucune réponses",
+        ],
+        "answer": 2,
+        "explain": (
+            "Pour être obligatoirement soumis à la LPP (2e pilier), il faut notamment que : le contrat dure plus de 3 mois (ici 1 an, donc OK), et que "
+            "le salaire annuel auprès de cet employeur atteigne au moins le seuil d’entrée LPP (ici 15'000 < 22'680)."),
+},
+{
+    "q": "La société Ballon SA veut acquérir un nouveau véhicule pour un prix catalogue de 85'000 en utilisant le leasing comme source de financement. "
+    "L’apport initial est de 8'000. Les mensualités s’élèvent à 1'390.25 pour une durée de 60 mois (le taux d’intérêt de 3.6% est déjà compris dans les mensualités). "
+    "Le coût total de l’achat du véhicule en leasing s’élève à 95'415. \n",
+    "A combien s’élève la valeur résiduelle de rachat ?"
+        "choices": [
+            "1'590.25",
+            "4'000",
+            "12'000",
+            "77'000",
         ],
         "answer": 1,
         "explain": (
-            "En France, le prélèvement à la source (PAS) est : "
-            "un impôt dû par l’employé prélevé sur son salaire et simplement versé par l’employeur à l’État (rôle d’intermédiaire). "
-            "donc l'employeur ne paye pas l'impôt : il le retient sur le net de l'employé."),
+            "Dans un leasing avec option d’achat, le coût total d’achat en leasing : Apport initial + ∑ Mensualités + valeur résiduelle (rachat) ∴ "
+            "Valeur résiduelle = Coût total leasing - Apport initial - ∑ Mensualités = 95'415 - 8'000 - (60 × 1'390.25) = 4'000."),
 },
+{
+    "q": "Cataro SA reçoit un courrier d’un partenaire pour participer à un crowdfunding pour soutenir le lancement d’un nouveau produit. "
+    "Les dépenses concernent la production de vidéo en ligne (130'000), la mise d’annonce dans des quotidiens (220'000) ainsi que des affiches (650'000). "
+    "Dans ce courrier il est indiqué qu’il manque encore 210'000 pour pouvoir mener cette campagne. "
+    "Cataro SA recevra le produit en avant-première s’il soutient cette campagne. \n"
+    "De quel type de crowdfunding s’agit-il dans ce cas ?",
+        "choices": [
+            "Crowdsupporting qui doit être comptabilisé dans les produits.",
+            "Crowdlending qui doit être comptabilisé dans les fonds propres.",
+            "Crowdsupporting qui doit être comptabilisé dans les capitaux étrangers.",
+            "Crowlending qui doit être comptabilisé dans les produits.",
+        ],
+        "answer": 1,
+        "explain": (
+            "Sachant que Cataro SA recevra le produit en avant-première si elle soutient cette campagne al. ce n'est pas dans un prêt (pas de remboursement + intérêts) ∴ "
+            "ce n’est pas du crowdlending. De plus, on est dans une contribution avec contrepartie en nature (recevoir le produit) ∴ crowdsupporting (aussi appelé reward-based / précommande). "
+            "Comme l’argent est encaissé avant la livraison du produit, l’entreprise a une obligation envers les contributeurs : elle doit livrer ∴ "
+            "Encaissement avant prestation ⇒ Dettes / produits constatéss d’avance ⇒ Capitaux étrangers"),
+},
+{
+    "q": "Le directeur financier de Cataro SA lit un article de la BCGE dont le titre est « Le leasing de biens d’équipement professionnels ; complément idéal au financement " 
+    "traditionnel », le sous-titre d’un des paragraphes attire son attention « Augmenter la flexibilité financière de l’entreprise », il y est écrit « Le leasing de biens d’équipement "
+    "présente de nombreux avantages. D’une part il permet de préserver les liquidités des entreprises grâce à un apport initial minimum et au fait de ne pas avoir à s’acquitter du "
+    "montant de la TVA lors de la prise en main des équipements. D’autre part, il permet d’améliorer la flexibilité financière avec la possibilité d’augmenter son apport initial ou "
+    "de comptabiliser hors bilan, les engagements de leasing ». \n"
+    "Quelles seraient conséquences sur le bilan de Cataro SA de comptabiliser le leasing hors bilan (leasing d’exploitation) ?"
+        "choices": [
+            "L’actif immobilisé figure au bilan et le montant de la dette de leasing est indiqué dans l’annexe des états financiers.",
+            "L’actif immobilisé ne figure pas au bilan et le montant de la dette de leasing est comptabilisé dans les capitaux étrangers.",
+            "L’actif immobilisé figure au bilan et le montant de la dette de leasing est comptabilisé dans les capitaux étrangers.",
+            "L’actif immobilisé ne figure pas au bilan et le montant de la dette de leasing est indiqué dans l’annexe des états financiers.",
+        ],
+        "answer": 3,
+        "explain": (
+            "Sachant que quand on comptabilise un leasing hors bilan (leasing d’exploitation) : (1) On ne comptabilise pas l’immobilisation à l’actif (le bien n’apparaît pas au bilan). "
+            "(2) On ne comptabilise pas non plus une dette de leasing dans les capitaux étrangers. (3) Les engagements futurs (paiements de leasing) sont en général mentionnés en "
+            "annexe comme engagements hors bilan. Conséquence bilan : ni actif, ni dette au bilan, mais information en annexe. "
+            "De plus, si l’actif immobilisé figure au bilan & le montant de la dette de leasing dans les capitaux étranger al. on parle de leasing et non pas de leasing d'exploitation."),
+},
+
+    
 ]
 
 
