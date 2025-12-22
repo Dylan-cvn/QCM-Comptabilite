@@ -1273,7 +1273,7 @@ QUESTIONS = [
     "Le coût total de l’achat du véhicule en leasing s’élève à 95'415. \n",
     "A combien s’élève la valeur résiduelle de rachat ?",
         "choices": [
-            "1'590.25",
+            "1'590",
             "4'000",
             "12'000",
             "77'000",
