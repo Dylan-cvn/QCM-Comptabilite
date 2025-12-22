@@ -1322,9 +1322,149 @@ QUESTIONS = [
             "annexe comme engagements hors bilan. Conséquence bilan : ni actif, ni dette au bilan, mais information en annexe. "
             "De plus, si l’actif immobilisé figure au bilan & le montant de la dette de leasing dans les capitaux étranger al. on parle de leasing et non pas de leasing d'exploitation."),
 },
-
+{
+    "q": "Le 31.03 la société Matos SA, active dans la vente de matériel informatique, règle l’annuité hypothécaire concernant son immeuble locatif pour un montant de 100'000. "
+    "Sachant que Immeuble locatif (12'000'000), Amortissement et correction de valeur sur immeuble (3'000'000), Hypothèque avec taux 1% échéance 31 mars (4'000'000). \n"
+    "En tenant compte des informations comptables ci-dessous indiquez la journalisation correcte : ",
+        "choices": [
+            "Cha. hors expl. d'immeuble (30'000) et Hypothèque (100'000) à Banque (130'000)",
+            "Cha. hors expl. d'immeuble (40'000) et Hypothèque (100'000) à Banque (140'000)",
+            "Cha. hors expl. d'immeuble (40'000) et Hypothèque (60'000) à Banque (100'000)",
+            "Cha. hors expl. d'immeuble (30'000) et Hypothèque (70'000) à Banque (100'000)",
+        ],
+        "answer": 2,
+        "explain": (
+            "L'annuité (A) = intérêts de la période (I) + remboursement du capital (amortissement) (R) ⇒ A = I + R & pour trouver les intérets de la présiode : "
+            "I = C × T × N = 4'000'000 × 1/100 × 1an = 40'000 al. R = A - I = 100'000 - 40'000 = 60'000. "
+            "amortissement du capitale = annuité - intérêts = 100'000 - 40'000 = 60'000 ∴ le paiement de 100'000 se sépare en 40'000 d'intérêts & 60'000 de remboursement de la dette "
+            "sachant que le montant en banque va diminuer."),
+},
+{
+    "q": "Le crowdfunding est un mode de financement en pleine expansion. Chimic SA se demande quel est l’objectif principal d’un investisseur lorsqu’il utilise le crowdlending "
+    "(crédit participatif) comme mode de financement.",
+        "choices": [
+            "L’investisseur participe à la gestion opérationnelle de l’entreprise.",
+            "L’investisseur prend une participation dans le capital de l’entreprise.",
+            "L’investisseur reçoit annuellement un intérêt sur le montant prêté.",
+            "L’investisseur soutien l’entreprise sous la forme d’un don.",
+        ],
+        "answer": 2,
+        "explain": (
+            "Crowdlending (crédit participatif) = l’investisseur prête de l’argent à l’entreprise pour est obtenir une rémunération sous forme d’intérêts (et le remboursement du capital). "
+            "L’investisseur ne participe à la gestion opérationnelle de l’entreprise & ne prend pas une participation dans le capital (crowdinvesting). De plus, il me soutien pas l'entreprise "
+            "sous la forme d'un don (crowddonating)"),
+},
+{
+    "q": "Une filiale de Chimic SA doit renouveler son parc automobile. L’entreprise a contracté un leasing pour une camionnette d’une valeur de 80'000 sachant : "
+    "Apport initial (5'500), Mensualités (1'500) durant 48 mois, Taux effectifs annuels global (2.90%), Valeur résiduelle (10'000), Kilométrage annuel prévu (10'000) & "
+    "assurance casco complète (2'652). \n"
+    "Chimic SA se demande comment calculer les intérêts totaux du leasing en CHF avec le taux mentionné à 2.9%.",
+        "choices": [
+            "2.9% × val. du bien (80'000)",
+            "2.9% × val. du bien (80'000) - apport initial (5'500)",
+            "2.9% × val. du bien (80'000) - apport initial (5'500) × 4 ans",
+            "Aucune réponses",
+        ],
+        "answer": 3,
+        "explain": (
+            "Pour un leasing, les intérêts ne se calculent pas avec une formule du type 2.9% × 80'000 (ou × années), parce que : "
+            "(1) Remboursement un peu chaque mois ∴ ↓ de la dette. "
+            "(2) Intérêts calculés chaque mois sur le solde restant. "
+            "(3) à la fin du remboursement, il reste une valeur résiduelle (10'000) ∴ il faudrait un tableau d'amortissement à annuité constante."),
+},
+{
+    "q": "VTT SA doit acquérir de nouveaux photocopieurs qu’elle décide de financer par un leasing d’investissement. "
+    "Sachant : Prix d’achat (50'000), Versement initial (8'000) pour une durée de 36 mois, Valeur résiduelle (10'000), Mensualités hors TVA (1'500) & Taux effectif annuel (3.89%). \n"
+    "Comment doit-elle comptabiliser la 2e mensualité du leasing d’investissement ? (ne pas tenir compte de la TVA)",
+        "choices": [
+            "La mensualité est intégralement comptabilisée en charge.",
+            "L'intérêt est comptabilisé en charge et le remboursement en diminution de la dette de leasing.",
+            "L'intérêt est comptabilisé en charge et le remboursement en diminution de la valeur de l'actif en leasing au bilan.",
+            "Aucune réponses",
+        ],
+        "answer": 1,
+        "explain": (
+            "Un leasing d’investissement se comptabilise comme un financement : Actif = immobilisation en leasing & Passif = dette de leasing. "
+            "Chaque mensualité se calcul comme les annuités (A) ∴ A = Intérêts (I) + Remboursement du capital (R) ⇒ A = I + R. "
+            "Pour la comptabilisation de la 2ᵉ mensualité (sans TVA), l'intérêt est comptabilisé en charge (Cha.fin.) & le remboursement en diminution de la dette de leasing (Dette leasing). "
+            "De plus, on aura une sortie de cash de la banque (Banque)."),
+},
+{
+    "q": "Clarix SA veut financer des véhicules via une coopérative de cautionnement. \n"
+    "Que signifie “cautionnement” ici ?",
+        "choices": [
+            "Crédit accordé sans condition",
+            "Crédit garanti par la Confédération",
+            "Crédit garanti par la coopérative de cautionnement",
+            "Crédit versé par la coopérative",
+        ],
+        "answer": 2,
+        "explain": (
+            "Un cautionnement = une garantie : un tiers (ici la coopérative) s’engage envers la banque à payer à la place de l’entreprise si celle-ci ne rembourse pas : "
+            "(1) La banque accorde et verse le crédit. "
+            "(2) La coopérative ne prête pas : elle garantit le remboursement (jusqu’au montant cautionné)."),
+},
+{
+    "q": "Clarix SA veut financer des besoins à court terme. Quels crédits bancaires conviennent ?",
+        "choices": [
+            "Limite en compte courant + avance à terme fixe",
+            "Avance à terme fixe + crédit d’investissement",
+            "Limite en compte courant + crédit d’investissement",
+            "Crédit d’investissement + leasing",
+        ],
+        "answer": 0,
+        "explain": (
+            "Les besoins à C-T se financent avec des crédits C-T : "
+            "(1) Limite en compte courant = ligne de découvert / crédit flexible pour la trésorerie. "
+            "(2) Avance à terme fixe = emprunt à durée courte déterminée (C-T). "
+            "À l’inverse, Crédit d’investissement et leasing servent surtout à financer des biens durables ⇒ crédits L-T."),
+},
+{
+    "q": "Sachant que la dette bancaire à long terme correspond à un prêt initial (500'000) contracté à un taux fixe (2%) et remboursable en 4 tranches annuelles égales de capital. \n"
+    "Quel est le coût total des intérêts sur toute la durée du prêt (4 ans) ?",
+        "choices": [
+            "5'000",
+            "7'500",
+            "12'500",
+            "25'000",
+        ],
+        "answer": 3,
+        "explain": (
+            "Intérêts = Capital initial × Taux d’intérêt × durée de la période en années ⇒ I = ∑C × T × N sachant que la dette bancaire à long terme : "
+            "ΔC = 375'000(31.12.N-1) - 250'000(31.12.N) = 125'000 ∴ "
+            "C1 (année 1) = 500'000, C2 (année 2) = 500'000 - 125'000, C3 = 500'000 - 125'000 - 125'000, C4 = 500'000 - 125'000 - 125'000 - 125'000 ⇒ "
+            "C1 = 500'000, C2 = 375'000, C3 = 250'000, C4 = 125'000 ∴ I = (C1 + C2 + C3 + C4) × 2% × 1an = (500'000 + 375'000 + 250'000 + 125'000) × 2% = 25'000"),
+    "image": "bilan_burret.png",
+},
+{
+    "q": "Si le remboursement annuel de la dette hypothécaire est constant, quelle raison l’annuité hypothécaire serait-elle dégressive ?",
+        "choices": [
+            "Si le taux est dégressif.",
+            "Si le montant des intérêts est dégressif.",
+            "Si le montant de l'amortissement est dégressif.",
+            "Aucune réponse",
+        ],
+        "answer": 1,
+        "explain": (
+            "Une annuité hypothécaire vérifie : Annuité (A) = intérêts (I) + Remboursement du capital (ici constant) (R) sachant que I = C × T × 1an ⇒ les intérêts sont calculés sur le capital restant. "
+            "Comme R est constant al. A↓ car I↓ + R sachant que I↓ car C↓ × T × 1an."),
+},
+{
+    "q": "Quel serait le coût total de l’achat des nouvelles machines avec la proposition du leasing d’investissement sachant "
+    "que le leasing dure 5 ans (60 mois) avec des mensualités constantes de 3'525, un apport initial de 25'000 et une valeur résiduelle de rachat de 5'000 (hors TVA).",
+        "choices": [
+            "47'625",
+            "216'500",
+            "236'500",
+            "241'500",
+        ],
+        "answer": 3,
+        "explain": (
+            "Pour un leasing d’investissement : Coût total = apport initial + (mensualité × nombre de mois) + valeur résiduelle = "
+            "25'000 + (3'525 × 60) + 5'000 = 241'500"),
+}
     
-]
+    ]
 
 
 #-------------------------------------------------------------------------------------------------------------------------------------------
