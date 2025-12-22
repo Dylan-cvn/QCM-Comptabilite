@@ -1271,7 +1271,7 @@ QUESTIONS = [
     "q": "La société Ballon SA veut acquérir un nouveau véhicule pour un prix catalogue de 85'000 en utilisant le leasing comme source de financement. "
     "L’apport initial est de 8'000. Les mensualités s’élèvent à 1'390.25 pour une durée de 60 mois (le taux d’intérêt de 3.6% est déjà compris dans les mensualités). "
     "Le coût total de l’achat du véhicule en leasing s’élève à 95'415. \n",
-    "A combien s’élève la valeur résiduelle de rachat ?"
+    "A combien s’élève la valeur résiduelle de rachat ?",
         "choices": [
             "1'590.25",
             "4'000",
