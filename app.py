@@ -1047,10 +1047,11 @@ QUESTIONS = [
             "6'000",
             "9'000",
         ],
-        "answer": 3,
+        "answer": 0,
         "explain": (
             "On nous dit que le mobilier est amorti selon la méthode constante à 10% de la VCN. "
-            "Amortissement annuel = 30'000 × 10% = 3'000 & on a comptabilisé 3 exercices complets : 3'000 × 3 = 9'000."), 
+            "Amortissement annuel = 30'000 × 10% = 3'000 & on a comptabilisé 3 exercices complets : 3'000 × 3 = 9'000 mais "
+            "vu que c'est l'amortissement direct, il n'y a pas de compte Amort.&Corr. de val. s/mobilier donc la bonne réponse est 0."), 
 },
 {
     "q": "L'entreprise Y a payé le 30.04.N une prime annuelle pour son assurance incendie et dégâts d’eau. "
