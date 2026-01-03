@@ -628,7 +628,7 @@ QUESTIONS = [
 },
 {
     "q": "Quelle est le montant des actifs circulants ? \n"
-         "Informations comptables : Banque (100'000), Créances résultants des ventes (246'800), Pertes s/créances (24'500), Dettes résultant d’achats (150’000), "
+         "Informations comptables : Banque (100'000), Créances résultants des ventes (246'800), Corr. de val. s/créances (24'500), Dettes résultant d’achats (150’000), "
          "Mobilier (235'000), Impôts anticipé à payer (16'500), Charges payées d’avance (2'900), Stock (169'800), Capital-actions (250'000), Licences (145'000), Produits à recevoir (32'500).",
         "choices": [
             "524'500",
@@ -638,7 +638,7 @@ QUESTIONS = [
         ],
         "answer": 1,
         "explain": (
-            "Actifs circulants = Banque (100'000) + Clients (246'800) - Pertes s/créances (24'500) + Charges payées d’avance (2'900) + Stock (169'800) + Produits à recevoir (32'500) = 527'500 "),
+            "Actifs circulants = Banque (100'000) + Clients (246'800) - Corr. de val. s/créances (24'500) + Charges payées d’avance (2'900) + Stock (169'800) + Produits à recevoir (32'500) = 527'500 "),
 },
 {
     "q": "Avant la clôture, le comptable a oublié de comptabiliser l’intérêt semestriel en faveur de la Banque Raiffeisen 1'522. "
