@@ -206,7 +206,7 @@ QUESTIONS = [
 },
 {
      "q": "Les actionnaires d'une société soumise au contrôle ordinaire souhaite faire un opting out. "
-          " Quelles seraient les conditions à réunir pour pouvoir le réaliser ?",
+          "Quelles seraient les conditions à réunir pour pouvoir le réaliser ?",
         "choices": [
             "L’opting out est possible avec l’accord de la majorité des actionnaires.",
             "L’opting out est possible avec l’accord de l’unanimité des actionnaires.",
@@ -790,7 +790,7 @@ QUESTIONS = [
 },
 {
     "q": "Complétez le texte : Les entreprises doivent atteindre 2 des 3 critères suivants pendant 2 années consécutives pour être soumises au contrôle ordinaire : "
-         " chiffre d'affaires net ... millions, total du bilan ... millions, nombre de collaborateurs à plein temps ... en moyenne.",
+         "chiffre d'affaires net ... millions, total du bilan ... millions, nombre de collaborateurs à plein temps ... en moyenne.",
         "choices": [
             "30/10/200",
             "30/15/250",
@@ -1298,7 +1298,7 @@ QUESTIONS = [
             "Crowdsupporting qui doit être comptabilisé dans les capitaux étrangers.",
             "Crowlending qui doit être comptabilisé dans les produits.",
         ],
-        "answer": 1,
+        "answer": 0,
         "explain": (
             "Sachant que Cataro SA recevra le produit en avant-première si elle soutient cette campagne al. ce n'est pas dans un prêt (pas de remboursement + intérêts) ∴ "
             "ce n’est pas du crowdlending. De plus, on est dans une contribution avec contrepartie en nature (recevoir le produit) ∴ crowdsupporting (aussi appelé reward-based / précommande). "
