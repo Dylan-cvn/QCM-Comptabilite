@@ -914,9 +914,10 @@ QUESTIONS = [
         ],
         "answer": 0,
         "explain": (
-            "Véhicule au 31.12.N avant amortissement : 5'250 & taux constant sur la Valeur Comptable Nette (VCN) : 25% ∴ "
-            "Amortissement N : Véhicule (5'250) × 25% = "
-            "Le montant de l'amortissement net début N : VCN (6'750) × 25% = 1'312.50."),
+            "Véhicule amorti de manière directe et constante au taux de 25%. "
+            "Dans la balance au 31.12.N (avant opérations de clôture), le compte 'Véhicule' présente 5'250 : "
+            "en méthode directe, ce solde correspond à la valeur comptable nette AVANT l’amortissement de N (VCN début N). "
+            "Amortissement de l’exercice N = VCN début N × taux = 5'250 × 25% = 1'312.50."),
     "image": "serie_4_balance_soldes.png",
 },
 {
