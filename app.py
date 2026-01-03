@@ -421,12 +421,14 @@ QUESTIONS = [
             "1'005'000",
             "Aucunes réponses",
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": (
-            "On cherche le résultat avant amortissement (et non pas l'EBITDA) donc Ventes réalisées - Charges sauf amortissement. "
-            "Ventes réalisées - Impôts - Loyer - Frais télécommunication - Cha. fin - Frais déplacement - Frais personnel - Frais publicité = "
-            "39'000'000 - 100'000 - 1'000'000 - 150'000 - 23'000 - 800'000 - 36'000'000 - 45'000 = 882'000 "
-            "On exclut créances résultant de ventes & stocks de marchandises car se sont des comptes d'actifs."),
+    "On cherche le résultat avant amortissements (résultat d’exploitation avant amortissements). "
+    "Donc : Ventes réalisées − charges d’exploitation, en excluant les amortissements. "
+    "Les impôts et les charges financières ne sont pas des charges d’exploitation dans ce calcul, "
+    "et les créances clients ainsi que les stocks sont des comptes d’actif (pas des charges). "
+    "Calcul : 39'000'000 − (36'000'000 + 1'000'000 + 150'000 + 800'000 + 45'000) "
+    "= 39'000'000 − 37'995'000 = 1'005'000."),
 },
 {
      "q": "Une entreprise soumise à la TVA réalise des ventes pour un montant de 200'000 + TVA 15'400. "
