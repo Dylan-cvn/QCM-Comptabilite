@@ -943,11 +943,12 @@ QUESTIONS = [
             "240'000",
             "Aucune réponses",
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": (
-            "Immeuble locatif N-3 : 4'000'000 sachant amortissements constants : valeur d’acquisition (4'000'000) – amortissements cumulés s/immeuble (3'760'000) = 240'000. "
-            "L'immeuble a été amorti de N-3, N-2, N-1 & N ∴ 4 exercices al. Annuités = 240'000/4 = 60′000. "
-            "Le montant de l’amortissement au 31.12.N est de 60'000 "),
+            "Immeuble locatif acquis le 01.01.N-3 pour 4'000'000 et amorti de manière constante (linéaire) et directe.  "
+            "Pour un immeuble locatif, on retient le taux usuel de 2% (durée 50 ans). "
+            "Annuité = Valeur d’acquisition × taux = 4'000'000 × 2% = 80'000. "
+            "Au 31.12.N, on demande l’amortissement de l’exercice N (pas le cumul) : il reste donc 80'000."),
     "image": "serie_4_balance_verification.png",
 },
 {
