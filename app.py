@@ -3,6 +3,7 @@ import random
 from datetime import datetime, timedelta
 from pathlib import Path
 import pandas as pd
+import requests
 
 # Configuration de la page Streamlit
 st.set_page_config(page_title="QCM Comptabilité financière", page_icon="🧠", layout="centered")
